@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_TempLegalEntity__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Legal Entity</label>
+    <required>false</required>
+    <securityClassification>Confidential</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Volkswagen Bank</fullName>
+                <default>false</default>
+                <label>Volkswagen Bank</label>
+            </value>
+            <value>
+                <fullName>Audi Bank</fullName>
+                <default>false</default>
+                <label>Audi Bank</label>
+            </value>
+            <value>
+                <fullName>SKODA Bank</fullName>
+                <default>false</default>
+                <label>SKODA Bank</label>
+            </value>
+            <value>
+                <fullName>SEAT Bank</fullName>
+                <default>false</default>
+                <label>SEAT Bank</label>
+            </value>
+            <value>
+                <fullName>VW Bank</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VW Bank</label>
+            </value>
+            <value>
+                <fullName>VW Insurance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VW Insurance</label>
+            </value>
+            <value>
+                <fullName>VW Leasing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VW Leasing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

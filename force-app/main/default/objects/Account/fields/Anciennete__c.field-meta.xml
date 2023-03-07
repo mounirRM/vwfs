@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Anciennete__c</fullName>
+    <description>Ancienneté = date du 1er contrat</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Correspond à la date du 1er contrat</inlineHelpText>
+    <label>Ancienneté</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

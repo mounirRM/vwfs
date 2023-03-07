@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CaseSubReason__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Case Subreason</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acte de décès</fullName>
+                <default>false</default>
+                <label>Acte de décès</label>
+            </value>
+            <value>
+                <fullName>Ajout de prestation</fullName>
+                <default>false</default>
+                <label>Ajout de prestation</label>
+            </value>
+            <value>
+                <fullName>Ajout/suppression de prestation</fullName>
+                <default>false</default>
+                <label>Ajout/suppression de prestation</label>
+            </value>
+            <value>
+                <fullName>Ajout/Suppression prestation</fullName>
+                <default>false</default>
+                <label>Ajout/Suppression prestation</label>
+            </value>
+            <value>
+                <fullName>Alerte futur impayé</fullName>
+                <default>false</default>
+                <label>Alerte futur impayé</label>
+            </value>
+            <value>
+                <fullName>Amende</fullName>
+                <default>false</default>
+                <label>Amende</label>
+            </value>
+            <value>
+                <fullName>AND/AEN</fullName>
+                <default>false</default>
+                <label>AND/AEN</label>
+            </value>
+            <value>
+                <fullName>ANTS - Fin de Contrat</fullName>
+                <default>false</default>
+                <label>ANTS - Fin de Contrat</label>
+            </value>
+            <value>
+                <fullName>ANTS - Fins de Contrat</fullName>
+                <default>false</default>
+                <label>ANTS - Fins de Contrat</label>
+            </value>
+            <value>
+                <fullName>Appel pour l&apos;acceptation</fullName>
+                <default>false</default>
+                <label>Appel pour l&apos;acceptation</label>
+            </value>
+            <value>
+                <fullName>Appel pour le paiement</fullName>
+                <default>false</default>
+                <label>Appel pour le paiement</label>
+            </value>
+            <value>
+                <fullName>Appel pour les RC</fullName>
+                <default>false</default>
+                <label>Appel pour les RC</label>
+            </value>
+            <value>
+                <fullName>AR</fullName>
+                <default>false</default>
+                <label>AR</label>
+            </value>
+            <value>
+                <fullName>Assistance outils</fullName>
+                <default>false</default>
+                <label>Assistance outils</label>
+            </value>
+            <value>
+                <fullName>Assistance virement</fullName>
+                <default>false</default>
+                <label>Assistance virement</label>
+            </value>
+            <value>
+                <fullName>Assistance 1er loyer</fullName>
+                <default>false</default>
+                <label>Assistance 1er loyer</label>
+            </value>
+            <value>
+                <fullName>Attestation de fin de contrat</fullName>
+                <default>false</default>
+                <label>Attestation de fin de contrat</label>
+            </value>
+            <value>
+                <fullName>Attestation fin de contrat</fullName>
+                <default>false</default>
+                <label>Attestation fin de contrat</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+            <value>
+                <fullName>Avenant de transfert</fullName>
+                <default>false</default>
+                <label>Avenant de transfert</label>
+            </value>
+            <value>
+                <fullName>Avis de citation à partie civile</fullName>
+                <default>false</default>
+                <label>Avis de citation à partie civile</label>
+            </value>
+            <value>
+                <fullName>Avis de classement à victime</fullName>
+                <default>false</default>
+                <label>Avis de classement à victime</label>
+            </value>
+            <value>
+                <fullName>Carte carburant</fullName>
+                <default>false</default>
+                <label>Carte carburant</label>
+            </value>
+            <value>
+                <fullName>Carte grise</fullName>
+                <default>false</default>
+                <label>Carte grise</label>
+            </value>
+            <value>
+                <fullName>Carte grise - cession</fullName>
+                <default>false</default>
+                <label>Carte grise - cession</label>
+            </value>
+            <value>
+                <fullName>Carte grise - demande démarche</fullName>
+                <default>false</default>
+                <label>Carte grise - demande démarche</label>
+            </value>
+            <value>
+                <fullName>Carte grise - en cours de contrat</fullName>
+                <default>false</default>
+                <label>Carte grise - en cours de contrat</label>
+            </value>
+            <value>
+                <fullName>Changement adresse</fullName>
+                <default>false</default>
+                <label>Changement adresse</label>
+            </value>
+            <value>
+                <fullName>Changement d&apos;adresse</fullName>
+                <default>false</default>
+                <label>Changement d&apos;adresse</label>
+            </value>
+            <value>
+                <fullName>Changement de locataire / transfert</fullName>
+                <default>false</default>
+                <label>Changement de locataire / transfert</label>
+            </value>
+            <value>
+                <fullName>Changement de nom</fullName>
+                <default>false</default>
+                <label>Changement de nom</label>
+            </value>
+            <value>
+                <fullName>Changement de quantième</fullName>
+                <default>false</default>
+                <label>Changement de quantième</label>
+            </value>
+            <value>
+                <fullName>Changement de RIB</fullName>
+                <default>false</default>
+                <label>Changement de RIB</label>
+            </value>
+            <value>
+                <fullName>Changement locataire / transfert</fullName>
+                <default>false</default>
+                <label>Changement locataire / transfert</label>
+            </value>
+            <value>
+                <fullName>Changement nom</fullName>
+                <default>false</default>
+                <label>Changement nom</label>
+            </value>
+            <value>
+                <fullName>Changement quantième</fullName>
+                <default>false</default>
+                <label>Changement quantième</label>
+            </value>
+            <value>
+                <fullName>Changement RIB</fullName>
+                <default>false</default>
+                <label>Changement RIB</label>
+            </value>
+            <value>
+                <fullName>Constat d&apos;échec</fullName>
+                <default>false</default>
+                <label>Constat d&apos;échec</label>
+            </value>
+            <value>
+                <fullName>Contestation de refus</fullName>
+                <default>false</default>
+                <label>Contestation de refus</label>
+            </value>
+            <value>
+                <fullName>Contestation FREM</fullName>
+                <default>false</default>
+                <label>Contestation FREM</label>
+            </value>
+            <value>
+                <fullName>Contravention</fullName>
+                <default>false</default>
+                <label>Contravention</label>
+            </value>
+            <value>
+                <fullName>Contraventions</fullName>
+                <default>false</default>
+                <label>Contraventions</label>
+            </value>
+            <value>
+                <fullName>Contre-proposition 1LM/DG/ Apport</fullName>
+                <default>false</default>
+                <label>Contre-proposition 1LM/DG/ Apport</label>
+            </value>
+            <value>
+                <fullName>Contre-proposition apport</fullName>
+                <default>false</default>
+                <label>Contre-proposition apport</label>
+            </value>
+            <value>
+                <fullName>Contre-proposition co-emprunteur</fullName>
+                <default>false</default>
+                <label>Contre-proposition co-emprunteur</label>
+            </value>
+            <value>
+                <fullName>Contre-proposition durée</fullName>
+                <default>false</default>
+                <label>Contre-proposition durée</label>
+            </value>
+            <value>
+                <fullName>Contre-proposition garantie</fullName>
+                <default>false</default>
+                <label>Contre-proposition garantie</label>
+            </value>
+            <value>
+                <fullName>Contre-proposition produit</fullName>
+                <default>false</default>
+                <label>Contre-proposition produit</label>
+            </value>
+            <value>
+                <fullName>Convocation à audience</fullName>
+                <default>false</default>
+                <label>Convocation à audience</label>
+            </value>
+            <value>
+                <fullName>Copie de facture</fullName>
+                <default>false</default>
+                <label>Copie de facture</label>
+            </value>
+            <value>
+                <fullName>Copie documents contrat</fullName>
+                <default>false</default>
+                <label>Copie documents contrat</label>
+            </value>
+            <value>
+                <fullName>Copie facture</fullName>
+                <default>false</default>
+                <label>Copie facture</label>
+            </value>
+            <value>
+                <fullName>Courrier administrataire judiciaire</fullName>
+                <default>false</default>
+                <label>Courrier administrataire judiciaire</label>
+            </value>
+            <value>
+                <fullName>Courrier avocat</fullName>
+                <default>false</default>
+                <label>Courrier avocat</label>
+            </value>
+            <value>
+                <fullName>Courrier BDF sur mention « identité usurpée »</fullName>
+                <default>false</default>
+                <label>Courrier BDF sur mention « identité usurpée »</label>
+            </value>
+            <value>
+                <fullName>Courrier Commissaire Priseur</fullName>
+                <default>false</default>
+                <label>Courrier Commissaire Priseur</label>
+            </value>
+            <value>
+                <fullName>Courrier Huissier de justice</fullName>
+                <default>false</default>
+                <label>Courrier Huissier de justice</label>
+            </value>
+            <value>
+                <fullName>Courrier mandataire Judiciaire</fullName>
+                <default>false</default>
+                <label>Courrier mandataire Judiciaire</label>
+            </value>
+            <value>
+                <fullName>Courrier Notaire</fullName>
+                <default>false</default>
+                <label>Courrier Notaire</label>
+            </value>
+            <value>
+                <fullName>Courrier Police/Gendarmerie</fullName>
+                <default>false</default>
+                <label>Courrier Police/Gendarmerie</label>
+            </value>
+            <value>
+                <fullName>Courrier Tribunal</fullName>
+                <default>false</default>
+                <label>Courrier Tribunal</label>
+            </value>
+            <value>
+                <fullName>Décision Tribunal</fullName>
+                <default>false</default>
+                <label>Décision Tribunal</label>
+            </value>
+            <value>
+                <fullName>Delai de traitement acceptation</fullName>
+                <default>false</default>
+                <label>Delai de traitement acceptation</label>
+            </value>
+            <value>
+                <fullName>Delai de traitement contrat</fullName>
+                <default>false</default>
+                <label>Delai de traitement contrat</label>
+            </value>
+            <value>
+                <fullName>Demande accord de paiement</fullName>
+                <default>false</default>
+                <label>Demande accord de paiement</label>
+            </value>
+            <value>
+                <fullName>Demande administrative diverse</fullName>
+                <default>false</default>
+                <label>Demande administrative diverse</label>
+            </value>
+            <value>
+                <fullName>Demande appel téléphonique</fullName>
+                <default>false</default>
+                <label>Demande appel téléphonique</label>
+            </value>
+            <value>
+                <fullName>Demande archivage</fullName>
+                <default>false</default>
+                <label>Demande archivage</label>
+            </value>
+            <value>
+                <fullName>Demande Carte Verte</fullName>
+                <default>false</default>
+                <label>Demande Carte Verte</label>
+            </value>
+            <value>
+                <fullName>Demande certificat de cession</fullName>
+                <default>false</default>
+                <label>Demande certificat de cession</label>
+            </value>
+            <value>
+                <fullName>Demande certificat de cession par prestataire en recouvrement</fullName>
+                <default>false</default>
+                <label>Demande certificat de cession par prestataire en recouvrement</label>
+            </value>
+            <value>
+                <fullName>Demande certificat de vente</fullName>
+                <default>false</default>
+                <label>Demande certificat de vente</label>
+            </value>
+            <value>
+                <fullName>Demande Crit&apos;Air</fullName>
+                <default>false</default>
+                <label>Demande Crit&apos;Air</label>
+            </value>
+            <value>
+                <fullName>Demande d’enquête</fullName>
+                <default>false</default>
+                <label>Demande d’enquête</label>
+            </value>
+            <value>
+                <fullName>Demande d’imputation de règlement</fullName>
+                <default>false</default>
+                <label>Demande d’imputation de règlement</label>
+            </value>
+            <value>
+                <fullName>Demande de chèque</fullName>
+                <default>false</default>
+                <label>Demande de chèque</label>
+            </value>
+            <value>
+                <fullName>Demande de dépôt de plainte</fullName>
+                <default>false</default>
+                <label>Demande de dépôt de plainte</label>
+            </value>
+            <value>
+                <fullName>Demande de flag/déflag</fullName>
+                <default>false</default>
+                <label>Demande de flag/déflag</label>
+            </value>
+            <value>
+                <fullName>Demande de paiement</fullName>
+                <default>false</default>
+                <label>Demande de paiement</label>
+            </value>
+            <value>
+                <fullName>Demande de PEC prestataire</fullName>
+                <default>false</default>
+                <label>Demande de PEC prestataire</label>
+            </value>
+            <value>
+                <fullName>Demande de pièces par prestataire en recouvrement</fullName>
+                <default>false</default>
+                <label>Demande de pièces par prestataire en recouvrement</label>
+            </value>
+            <value>
+                <fullName>Demande de prolongation</fullName>
+                <default>false</default>
+                <label>Demande de prolongation</label>
+            </value>
+            <value>
+                <fullName>Demande de radiation</fullName>
+                <default>false</default>
+                <label>Demande de radiation</label>
+            </value>
+            <value>
+                <fullName>Demande de réduction de capital</fullName>
+                <default>false</default>
+                <label>Demande de réduction de capital</label>
+            </value>
+            <value>
+                <fullName>Demande de refinancement</fullName>
+                <default>false</default>
+                <label>Demande de refinancement</label>
+            </value>
+            <value>
+                <fullName>Demande de régularisation comptable</fullName>
+                <default>false</default>
+                <label>Demande de régularisation comptable</label>
+            </value>
+            <value>
+                <fullName>Demande de remboursement</fullName>
+                <default>false</default>
+                <label>Demande de remboursement</label>
+            </value>
+            <value>
+                <fullName>Demande de remboursement par prestataire en recouvrement</fullName>
+                <default>false</default>
+                <label>Demande de remboursement par prestataire en recouvrement</label>
+            </value>
+            <value>
+                <fullName>Demande de renégociation</fullName>
+                <default>false</default>
+                <label>Demande de renégociation</label>
+            </value>
+            <value>
+                <fullName>Demande de report</fullName>
+                <default>false</default>
+                <label>Demande de report</label>
+            </value>
+            <value>
+                <fullName>Demande de solde</fullName>
+                <default>false</default>
+                <label>Demande de solde</label>
+            </value>
+            <value>
+                <fullName>Demande de sortie d&apos;immobilisation</fullName>
+                <default>false</default>
+                <label>Demande de sortie d&apos;immobilisation</label>
+            </value>
+            <value>
+                <fullName>Demande de transfert</fullName>
+                <default>false</default>
+                <label>Demande de transfert</label>
+            </value>
+            <value>
+                <fullName>Demande fichage FICP</fullName>
+                <default>false</default>
+                <label>Demande fichage FICP</label>
+            </value>
+            <value>
+                <fullName>Demande info cession</fullName>
+                <default>false</default>
+                <label>Demande info cession</label>
+            </value>
+            <value>
+                <fullName>Demande info restitution</fullName>
+                <default>false</default>
+                <label>Demande info restitution</label>
+            </value>
+            <value>
+                <fullName>Demande information cession</fullName>
+                <default>false</default>
+                <label>Demande information cession</label>
+            </value>
+            <value>
+                <fullName>Demande information restitution</fullName>
+                <default>false</default>
+                <label>Demande information restitution</label>
+            </value>
+            <value>
+                <fullName>Demande informations générales</fullName>
+                <default>false</default>
+                <label>Demande informations générales</label>
+            </value>
+            <value>
+                <fullName>Demande interne société</fullName>
+                <default>false</default>
+                <label>Demande interne société</label>
+            </value>
+            <value>
+                <fullName>Demande MASI ou Demande de validation des virements émis par les concessions</fullName>
+                <default>false</default>
+                <label>Demande MASI ou Demande de validation des virements émis par les concessions</label>
+            </value>
+            <value>
+                <fullName>Demande paiement facture fournisseurs</fullName>
+                <default>false</default>
+                <label>Demande paiement facture fournisseurs</label>
+            </value>
+            <value>
+                <fullName>Demande radiation FICP</fullName>
+                <default>false</default>
+                <label>Demande radiation FICP</label>
+            </value>
+            <value>
+                <fullName>Demande radiation FICP par prestataire en recouvrement</fullName>
+                <default>false</default>
+                <label>Demande radiation FICP par prestataire en recouvrement</label>
+            </value>
+            <value>
+                <fullName>Dépôt de plainte client</fullName>
+                <default>false</default>
+                <label>Dépôt de plainte client</label>
+            </value>
+            <value>
+                <fullName>Divers BDF</fullName>
+                <default>false</default>
+                <label>Divers BDF</label>
+            </value>
+            <value>
+                <fullName>Docs de cession</fullName>
+                <default>false</default>
+                <label>Docs de cession</label>
+            </value>
+            <value>
+                <fullName>Documents contractuels</fullName>
+                <default>false</default>
+                <label>Documents contractuels</label>
+            </value>
+            <value>
+                <fullName>Documents de cession</fullName>
+                <default>false</default>
+                <label>Documents de cession</label>
+            </value>
+            <value>
+                <fullName>Documents fiscaux</fullName>
+                <default>false</default>
+                <label>Documents fiscaux</label>
+            </value>
+            <value>
+                <fullName>Duplicata de carte grise</fullName>
+                <default>false</default>
+                <label>Duplicata de carte grise</label>
+            </value>
+            <value>
+                <fullName>Duplicata de carte service</fullName>
+                <default>false</default>
+                <label>Duplicata de carte service</label>
+            </value>
+            <value>
+                <fullName>Duplicata de facture</fullName>
+                <default>false</default>
+                <label>Duplicata de facture</label>
+            </value>
+            <value>
+                <fullName>Echelonnement</fullName>
+                <default>false</default>
+                <label>Echelonnement</label>
+            </value>
+            <value>
+                <fullName>Enquêtes état civil banque de France</fullName>
+                <default>false</default>
+                <label>Enquêtes état civil banque de France</label>
+            </value>
+            <value>
+                <fullName>Etat Parc</fullName>
+                <default>false</default>
+                <label>Etat Parc</label>
+            </value>
+            <value>
+                <fullName>Explication comptable</fullName>
+                <default>false</default>
+                <label>Explication comptable</label>
+            </value>
+            <value>
+                <fullName>Facture prestataire</fullName>
+                <default>false</default>
+                <label>Facture prestataire</label>
+            </value>
+            <value>
+                <fullName>Fichier T</fullName>
+                <default>false</default>
+                <label>Fichier T</label>
+            </value>
+            <value>
+                <fullName>Flux prestataire</fullName>
+                <default>false</default>
+                <label>Flux prestataire</label>
+            </value>
+            <value>
+                <fullName>Gage/Publication - fin de contrat</fullName>
+                <default>false</default>
+                <label>Gage/Publication - fin de contrat</label>
+            </value>
+            <value>
+                <fullName>Gestion décès</fullName>
+                <default>false</default>
+                <label>Gestion décès</label>
+            </value>
+            <value>
+                <fullName>Gestion des Refinancements</fullName>
+                <default>false</default>
+                <label>Gestion des Refinancements</label>
+            </value>
+            <value>
+                <fullName>Gestion incapacité de travail</fullName>
+                <default>false</default>
+                <label>Gestion incapacité de travail</label>
+            </value>
+            <value>
+                <fullName>Gestion perte d&apos;emploi</fullName>
+                <default>false</default>
+                <label>Gestion perte d&apos;emploi</label>
+            </value>
+            <value>
+                <fullName>Gestion prolongation de contrat</fullName>
+                <default>false</default>
+                <label>Gestion prolongation de contrat</label>
+            </value>
+            <value>
+                <fullName>Gestion renégociation de contrat</fullName>
+                <default>false</default>
+                <label>Gestion renégociation de contrat</label>
+            </value>
+            <value>
+                <fullName>Gestion sinistre véhicule</fullName>
+                <default>false</default>
+                <label>Gestion sinistre véhicule</label>
+            </value>
+            <value>
+                <fullName>Gestion transfert de contrat</fullName>
+                <default>false</default>
+                <label>Gestion transfert de contrat</label>
+            </value>
+            <value>
+                <fullName>Incident ponctuel</fullName>
+                <default>false</default>
+                <label>Incident ponctuel</label>
+            </value>
+            <value>
+                <fullName>Info prestations</fullName>
+                <default>false</default>
+                <label>Info prestations</label>
+            </value>
+            <value>
+                <fullName>Information générale</fullName>
+                <default>false</default>
+                <label>Information générale</label>
+            </value>
+            <value>
+                <fullName>Information prestation</fullName>
+                <default>false</default>
+                <label>Information prestation</label>
+            </value>
+            <value>
+                <fullName>Information prestations</fullName>
+                <default>false</default>
+                <label>Information prestations</label>
+            </value>
+            <value>
+                <fullName>Information process fin de contrat</fullName>
+                <default>false</default>
+                <label>Information process fin de contrat</label>
+            </value>
+            <value>
+                <fullName>Information process prolongation de contrat</fullName>
+                <default>false</default>
+                <label>Information process prolongation de contrat</label>
+            </value>
+            <value>
+                <fullName>Information process renégociation de contrat</fullName>
+                <default>false</default>
+                <label>Information process renégociation de contrat</label>
+            </value>
+            <value>
+                <fullName>Information process sinistre à la personne</fullName>
+                <default>false</default>
+                <label>Information process sinistre à la personne</label>
+            </value>
+            <value>
+                <fullName>Information process sinistre véhicule</fullName>
+                <default>false</default>
+                <label>Information process sinistre véhicule</label>
+            </value>
+            <value>
+                <fullName>Information process transfert de contrat</fullName>
+                <default>false</default>
+                <label>Information process transfert de contrat</label>
+            </value>
+            <value>
+                <fullName>Information sur refus</fullName>
+                <default>false</default>
+                <label>Information sur refus</label>
+            </value>
+            <value>
+                <fullName>informations Score et Décisions</fullName>
+                <default>false</default>
+                <label>informations Score et Décisions</label>
+            </value>
+            <value>
+                <fullName>Infos générales</fullName>
+                <default>false</default>
+                <label>Infos générales</label>
+            </value>
+            <value>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+                <label>Inspection</label>
+            </value>
+            <value>
+                <fullName>IRA</fullName>
+                <default>false</default>
+                <label>IRA</label>
+            </value>
+            <value>
+                <fullName>Jugement</fullName>
+                <default>false</default>
+                <label>Jugement</label>
+            </value>
+            <value>
+                <fullName>KSIOP</fullName>
+                <default>false</default>
+                <label>KSIOP</label>
+            </value>
+            <value>
+                <fullName>LCD</fullName>
+                <default>false</default>
+                <label>LCD</label>
+            </value>
+            <value>
+                <fullName>Listing de reversement du virement de Concilian</fullName>
+                <default>false</default>
+                <label>Listing de reversement du virement de Concilian</label>
+            </value>
+            <value>
+                <fullName>LNR</fullName>
+                <default>false</default>
+                <label>LNR</label>
+            </value>
+            <value>
+                <fullName>Mesures imposées par la commission BDF</fullName>
+                <default>false</default>
+                <label>Mesures imposées par la commission BDF</label>
+            </value>
+            <value>
+                <fullName>Modif /erreur info financière</fullName>
+                <default>false</default>
+                <label>Modif /erreur info financière</label>
+            </value>
+            <value>
+                <fullName>Modif /erreur info personnelle</fullName>
+                <default>false</default>
+                <label>Modif /erreur info personnelle</label>
+            </value>
+            <value>
+                <fullName>Modif durée/km</fullName>
+                <default>false</default>
+                <label>Modif durée/km</label>
+            </value>
+            <value>
+                <fullName>Modification durée/km</fullName>
+                <default>false</default>
+                <label>Modification durée/km</label>
+            </value>
+            <value>
+                <fullName>Notification de Clôture</fullName>
+                <default>false</default>
+                <label>Notification de Clôture</label>
+            </value>
+            <value>
+                <fullName>Notifications décision antérieure</fullName>
+                <default>false</default>
+                <label>Notifications décision antérieure</label>
+            </value>
+            <value>
+                <fullName>NPAI</fullName>
+                <default>false</default>
+                <label>NPAI</label>
+            </value>
+            <value>
+                <fullName>Offre +</fullName>
+                <default>false</default>
+                <label>Offre +</label>
+            </value>
+            <value>
+                <fullName>Offres Plus</fullName>
+                <default>false</default>
+                <label>Offres Plus</label>
+            </value>
+            <value>
+                <fullName>Opposition administrative</fullName>
+                <default>false</default>
+                <label>Opposition administrative</label>
+            </value>
+            <value>
+                <fullName>Oppositions administratives</fullName>
+                <default>false</default>
+                <label>Oppositions administratives</label>
+            </value>
+            <value>
+                <fullName>Orientation vers un réaménagement des dettes</fullName>
+                <default>false</default>
+                <label>Orientation vers un réaménagement des dettes</label>
+            </value>
+            <value>
+                <fullName>Orientation vers une procédure de rétablissement personnelle</fullName>
+                <default>false</default>
+                <label>Orientation vers une procédure de rétablissement personnelle</label>
+            </value>
+            <value>
+                <fullName>Ouverture des mesures imposées</fullName>
+                <default>false</default>
+                <label>Ouverture des mesures imposées</label>
+            </value>
+            <value>
+                <fullName>Plainte</fullName>
+                <default>false</default>
+                <label>Plainte</label>
+            </value>
+            <value>
+                <fullName>Plan</fullName>
+                <default>false</default>
+                <label>Plan</label>
+            </value>
+            <value>
+                <fullName>Prise en charge prestation</fullName>
+                <default>false</default>
+                <label>Prise en charge prestation</label>
+            </value>
+            <value>
+                <fullName>Problème prise en charge prestation</fullName>
+                <default>false</default>
+                <label>Problème prise en charge prestation</label>
+            </value>
+            <value>
+                <fullName>Procès-verbal de découverte</fullName>
+                <default>false</default>
+                <label>Procès-verbal de découverte</label>
+            </value>
+            <value>
+                <fullName>Projet de plan</fullName>
+                <default>false</default>
+                <label>Projet de plan</label>
+            </value>
+            <value>
+                <fullName>Proposition de refinancement</fullName>
+                <default>false</default>
+                <label>Proposition de refinancement</label>
+            </value>
+            <value>
+                <fullName>PV de restitution</fullName>
+                <default>false</default>
+                <label>PV de restitution</label>
+            </value>
+            <value>
+                <fullName>PV restitution</fullName>
+                <default>false</default>
+                <label>PV restitution</label>
+            </value>
+            <value>
+                <fullName>Recevabilité</fullName>
+                <default>false</default>
+                <label>Recevabilité</label>
+            </value>
+            <value>
+                <fullName>Réclamation</fullName>
+                <default>false</default>
+                <label>Réclamation</label>
+            </value>
+            <value>
+                <fullName>Réclamations</fullName>
+                <default>false</default>
+                <label>Réclamations</label>
+            </value>
+            <value>
+                <fullName>Règlement</fullName>
+                <default>false</default>
+                <label>Règlement</label>
+            </value>
+            <value>
+                <fullName>Règlement (sinistre)</fullName>
+                <default>false</default>
+                <label>Règlement (sinistre)</label>
+            </value>
+            <value>
+                <fullName>Règlement de cession</fullName>
+                <default>false</default>
+                <label>Règlement de cession</label>
+            </value>
+            <value>
+                <fullName>Regul compta fin de contrat</fullName>
+                <default>false</default>
+                <label>Regul compta fin de contrat</label>
+            </value>
+            <value>
+                <fullName>Rejets FICP</fullName>
+                <default>false</default>
+                <label>Rejets FICP</label>
+            </value>
+            <value>
+                <fullName>Relevé de Sinistralité</fullName>
+                <default>false</default>
+                <label>Relevé de Sinistralité</label>
+            </value>
+            <value>
+                <fullName>Report d&apos;échéance</fullName>
+                <default>false</default>
+                <label>Report d&apos;échéance</label>
+            </value>
+            <value>
+                <fullName>Réquisition</fullName>
+                <default>false</default>
+                <label>Réquisition</label>
+            </value>
+            <value>
+                <fullName>Rétablissement personnel dans liquidation judiciaire</fullName>
+                <default>false</default>
+                <label>Rétablissement personnel dans liquidation judiciaire</label>
+            </value>
+            <value>
+                <fullName>Retard de paiement / impayés</fullName>
+                <default>false</default>
+                <label>Retard de paiement / impayés</label>
+            </value>
+            <value>
+                <fullName>Retour d&apos;enquête</fullName>
+                <default>false</default>
+                <label>Retour d&apos;enquête</label>
+            </value>
+            <value>
+                <fullName>Retour enquête de satisfaction</fullName>
+                <default>false</default>
+                <label>Retour enquête de satisfaction</label>
+            </value>
+            <value>
+                <fullName>Retour mission prestataire</fullName>
+                <default>false</default>
+                <label>Retour mission prestataire</label>
+            </value>
+            <value>
+                <fullName>Solde</fullName>
+                <default>false</default>
+                <label>Solde</label>
+            </value>
+            <value>
+                <fullName>Sortie de territoire</fullName>
+                <default>false</default>
+                <label>Sortie de territoire</label>
+            </value>
+            <value>
+                <fullName>Suivi ANTS</fullName>
+                <default>false</default>
+                <label>Suivi ANTS</label>
+            </value>
+            <value>
+                <fullName>Suivi de la partie contractuelle</fullName>
+                <default>false</default>
+                <label>Suivi de la partie contractuelle</label>
+            </value>
+            <value>
+                <fullName>Suivi de l&apos;acceptation</fullName>
+                <default>false</default>
+                <label>Suivi de l&apos;acceptation</label>
+            </value>
+            <value>
+                <fullName>Suivi des délais livraisons</fullName>
+                <default>false</default>
+                <label>Suivi des délais livraisons</label>
+            </value>
+            <value>
+                <fullName>Suppression de prestations</fullName>
+                <default>false</default>
+                <label>Suppression de prestations</label>
+            </value>
+            <value>
+                <fullName>Transfert recouvrement</fullName>
+                <default>false</default>
+                <label>Transfert recouvrement</label>
+            </value>
+            <value>
+                <fullName>TVS</fullName>
+                <default>false</default>
+                <label>TVS</label>
+            </value>
+            <value>
+                <fullName>Validation des mesures imposées</fullName>
+                <default>false</default>
+                <label>Validation des mesures imposées</label>
+            </value>
+            <value>
+                <fullName>VDL</fullName>
+                <default>false</default>
+                <label>VDL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

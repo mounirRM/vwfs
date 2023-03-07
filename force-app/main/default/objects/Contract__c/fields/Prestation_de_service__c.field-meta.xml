@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prestation_de_service__c</fullName>
+    <externalId>false</externalId>
+    <label>Prestation de service</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assurance - Garantie capital auto</fullName>
+                <default>false</default>
+                <label>Assurance - Garantie capital auto</label>
+            </value>
+            <value>
+                <fullName>Assurance - Perte Financier</fullName>
+                <default>false</default>
+                <label>Assurance - Perte Financier</label>
+            </value>
+            <value>
+                <fullName>Assurances (décès invalidité, …)</fullName>
+                <default>false</default>
+                <label>Assurances (décès invalidité, …)</label>
+            </value>
+            <value>
+                <fullName>Carte carburant</fullName>
+                <default>false</default>
+                <label>Carte carburant</label>
+            </value>
+            <value>
+                <fullName>Entretien (piece d&apos;usure-révision)</fullName>
+                <default>false</default>
+                <label>Entretien (piece d&apos;usure-révision)</label>
+            </value>
+            <value>
+                <fullName>Entretien VO</fullName>
+                <default>false</default>
+                <label>Entretien VO</label>
+            </value>
+            <value>
+                <fullName>Extension de garantie</fullName>
+                <default>false</default>
+                <label>Extension de garantie</label>
+            </value>
+            <value>
+                <fullName>Maintenance (piece d&apos;usure-révision + ttes les recos constructeurs + prolongation extension de garantie)</fullName>
+                <default>false</default>
+                <label>Maintenance (piece d&apos;usure-révision + ttes les recos constructeurs + prolongation extension de garantie)</label>
+            </value>
+            <value>
+                <fullName>Pneus</fullName>
+                <default>false</default>
+                <label>Pneus</label>
+            </value>
+            <value>
+                <fullName>Vehicule d&apos;attente</fullName>
+                <default>false</default>
+                <label>Vehicule d&apos;attente</label>
+            </value>
+            <value>
+                <fullName>Véhicule de remplacement</fullName>
+                <default>false</default>
+                <label>Véhicule de remplacement</label>
+            </value>
+            <value>
+                <fullName>Véhicule d’attente</fullName>
+                <default>false</default>
+                <label>Véhicule d’attente</label>
+            </value>
+            <value>
+                <fullName>Wallbox</fullName>
+                <default>false</default>
+                <label>Wallbox</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

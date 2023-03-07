@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_fin_de_l_encours__c</fullName>
+    <description>Date de fin  de la limite accordée</description>
+    <externalId>false</externalId>
+    <label>Date de fin de l&apos;encours</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

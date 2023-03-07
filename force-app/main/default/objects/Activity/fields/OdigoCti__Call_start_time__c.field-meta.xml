@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OdigoCti__Call_start_time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Start time (and date)</description>
+    <externalId>false</externalId>
+    <label>Call start time</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

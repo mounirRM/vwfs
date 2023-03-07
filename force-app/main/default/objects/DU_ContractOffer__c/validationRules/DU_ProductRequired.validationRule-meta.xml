@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ProductRequired</fullName>
+    <active>true</active>
+    <description>DU_Product__c is mandatory</description>
+    <errorConditionFormula>ISBLANK(DU_Product__c)</errorConditionFormula>
+    <errorDisplayField>DU_Product__c</errorDisplayField>
+    <errorMessage>Product must have a value</errorMessage>
+</ValidationRule>

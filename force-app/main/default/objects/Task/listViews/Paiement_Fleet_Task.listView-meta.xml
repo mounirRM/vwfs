@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paiement_Fleet_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Paiement Fleet</label>
+    <queue>Paiement_Fleet</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_LegalEntityCantBePlaceholder</fullName>
+    <active>false</active>
+    <description>This should be activated upon installation. Legal Entity can&apos;t be the placeholder value. You need to first define and then use real values specific to your country.</description>
+    <errorConditionFormula>ISPICKVAL(DU_LegalEntity__c, &quot;DO NOT USE - PLACEHOLDER&quot;)</errorConditionFormula>
+    <errorDisplayField>DU_LegalEntity__c</errorDisplayField>
+    <errorMessage>Legal Entity can&apos;t be the placeholder value. You need to first define and then use real values specific to your country.</errorMessage>
+</ValidationRule>

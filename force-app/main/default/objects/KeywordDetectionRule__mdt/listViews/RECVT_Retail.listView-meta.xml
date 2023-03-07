@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RECVT_Retail</fullName>
+    <columns>Expression__c</columns>
+    <columns>File_d_attente__c</columns>
+    <columns>Motif__c</columns>
+    <columns>Sous_motif__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>File_d_attente__c</field>
+        <operation>contains</operation>
+        <value>Recouvrement - retail</value>
+    </filters>
+    <label>RECVT Retail</label>
+    <language>en_US</language>
+</ListView>

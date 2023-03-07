@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FR_DefaultSupportProcess</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>A traiter</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Absence de retour client</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Absence de retour partenaire</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>En attente</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>En cours de traitement</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Erreur destinataire</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Opportunité commerciale</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Requête annulée %28le client ne souhaite pas donner suite%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Requête déjà traitée %28doublon%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Résolue</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Résolue %28via requête fille%29</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_PlannedRenewalDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Default renewal date for this contract, e.g., 6 month. Timeframe is configurable by the local SF Admin of the market using Custom metadata DU_Settings__mdt, record CDM_StandardContractRenewalPeriod. Availability 2.1.0.6</description>
+    <externalId>false</externalId>
+    <formula>ADDMONTHS( DU_DateEndPlanned__c,
+IF( ISNUMBER( $CustomMetadata.DU_Settings__mdt.CDM_StandardContractRenewalPeriod.DU_Value__c ), -1*VALUE($CustomMetadata.DU_Settings__mdt.CDM_StandardContractRenewalPeriod.DU_Value__c), -6))</formula>
+    <inlineHelpText>Default renewal date for this contract, e.g., 6 month. Timeframe is configurable by the local SF Admin of the market using Custom metadata DU_Settings__mdt, record CDM_StandardContractRenewalPeriod.</inlineHelpText>
+    <label>Planned Renewal Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

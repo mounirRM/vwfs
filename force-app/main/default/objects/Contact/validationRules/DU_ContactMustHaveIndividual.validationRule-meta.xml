@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ContactMustHaveIndividual</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Individual.Id)</errorConditionFormula>
+    <errorDisplayField>IndividualId</errorDisplayField>
+    <errorMessage>Every Contact record must have an Individual assigned.</errorMessage>
+</ValidationRule>

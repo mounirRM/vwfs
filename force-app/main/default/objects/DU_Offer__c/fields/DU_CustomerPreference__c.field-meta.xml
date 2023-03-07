@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_CustomerPreference__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Contains the digital renewal customer preference from match maker: New Contract/Renewal; Keep Car Refinance; Return Car.</description>
+    <externalId>false</externalId>
+    <label>Customer Preference</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NewContractRenewal</fullName>
+                <default>false</default>
+                <label>New contract/renewal</label>
+            </value>
+            <value>
+                <fullName>KeepCarRefinance</fullName>
+                <default>false</default>
+                <label>Keep car/refinance</label>
+            </value>
+            <value>
+                <fullName>ReturnCar</fullName>
+                <default>false</default>
+                <label>Return car</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

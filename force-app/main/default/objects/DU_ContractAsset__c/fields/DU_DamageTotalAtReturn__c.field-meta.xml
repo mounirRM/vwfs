@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_DamageTotalAtReturn__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Describes the total damage when the vehicle is returned</description>
+    <externalId>false</externalId>
+    <label>Total amount of damage at return</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

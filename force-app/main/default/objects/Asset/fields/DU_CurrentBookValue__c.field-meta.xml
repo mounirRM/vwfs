@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_CurrentBookValue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Balance sheet residual book value after tax depreciation (straight-line depreciation over the normal useful life). (Accounting value)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Balance sheet residual book value after tax depreciation (straight-line depreciation over the normal useful life). (Accounting value)</inlineHelpText>
+    <label>Current Book Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

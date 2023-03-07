@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_DealerBrand__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Field contains the marketing brands the Dealer uses to address the customer. This does not include the distribution rights for the respective brand.
+Availability 2.1.0.29</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the brands the Dealer uses to address customer.</inlineHelpText>
+    <label>Dealer Brand</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SKODA</fullName>
+                <default>false</default>
+                <label>SKODA</label>
+            </value>
+            <value>
+                <fullName>Audi</fullName>
+                <default>false</default>
+                <label>Audi</label>
+            </value>
+            <value>
+                <fullName>SEAT</fullName>
+                <default>false</default>
+                <label>SEAT</label>
+            </value>
+            <value>
+                <fullName>VW</fullName>
+                <default>false</default>
+                <label>VW</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

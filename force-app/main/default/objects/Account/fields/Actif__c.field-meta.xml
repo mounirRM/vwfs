@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actif__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Case à cocher si c&apos;est un actiif = Client a un contrat en cours</description>
+    <externalId>false</externalId>
+    <label>Actif</label>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_B2BMustBeSelectedIfCompanyIsFilledOut</fullName>
+    <active>true</active>
+    <errorConditionFormula>(!ISBLANK(Company) &amp;&amp; !DU_IsB2B__c) || 
+(ISBLANK(Company) &amp;&amp; DU_IsB2B__c)</errorConditionFormula>
+    <errorMessage>Company must be either filled out while &quot;Is B2B&quot; is selected or empty while &quot;Is B2B&quot; is not selected.</errorMessage>
+</ValidationRule>

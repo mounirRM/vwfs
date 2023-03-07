@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_InteractionStep__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Contains the value of stage on journey side when BFF pushes the interaction.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contains the value of stage on journey side when BFF pushes the interaction.</inlineHelpText>
+    <label>Interaction Step</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Identification Details Provided</fullName>
+                <default>false</default>
+                <label>Identification Details Provided</label>
+            </value>
+            <value>
+                <fullName>Contact Details Provided</fullName>
+                <default>false</default>
+                <label>Contact Details Provided</label>
+            </value>
+            <value>
+                <fullName>Payment Details Provided</fullName>
+                <default>false</default>
+                <label>Payment Details Provided</label>
+            </value>
+            <value>
+                <fullName>Employment Details Provided</fullName>
+                <default>false</default>
+                <label>Employment Details Provided</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

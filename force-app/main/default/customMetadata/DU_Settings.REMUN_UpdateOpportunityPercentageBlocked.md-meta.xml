@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>REMUN_UpdateOpportunityPercentageBlocked</label>
+    <protected>false</protected>
+    <values>
+        <field>DU_Description__c</field>
+        <value xsi:type="xsd:string">Remuneration:The trigger updating opportunity remuneration percentages from Remuneration Settings can be blocked by this setting. true=the processing logic is skipped, false=the processing logic is executed. (kill switch)</value>
+    </values>
+    <values>
+        <field>DU_Value__c</field>
+        <value xsi:type="xsd:string">false</value>
+    </values>
+</CustomMetadata>

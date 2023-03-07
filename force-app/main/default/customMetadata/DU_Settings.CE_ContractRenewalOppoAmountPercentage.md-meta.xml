@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CE_ContractRenewalOppoAmountPercentage</label>
+    <protected>false</protected>
+    <values>
+        <field>DU_Description__c</field>
+        <value xsi:type="xsd:string">Customer Engagement:When creating automatic renewal Opportunity from Contract what is the Opportunity Amount[%]. E.g. 5 =&gt; Opportunity Amount = Contract Amount + 5 percent of Contract Amount. Default 0. Use Integer values.</value>
+    </values>
+    <values>
+        <field>DU_Value__c</field>
+        <value xsi:type="xsd:string">0</value>
+    </values>
+</CustomMetadata>

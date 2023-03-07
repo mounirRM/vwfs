@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_VATNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Stores the VAT Number related to the market the company is listened.
+Availability 2.1.0.29</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter the VAT Number of the the related Account.</inlineHelpText>
+    <label>VAT Number</label>
+    <length>20</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

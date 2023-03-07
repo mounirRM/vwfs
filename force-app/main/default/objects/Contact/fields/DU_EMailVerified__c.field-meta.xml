@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_EMailVerified__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Indicates if the email is verified by BFF/Journey (via an external provider or the customer)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indication of verified/unverified E-Mail</inlineHelpText>
+    <label>E-Mail Verified</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Crédit réseau 4 fois sans frais</label>
+    <protected>false</protected>
+</CustomMetadata>

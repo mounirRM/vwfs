@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_CustomersCannotBeChangedDirectly</fullName>
+    <active>true</active>
+    <description>Customers are read only. Changes are allowed only to users of the &quot;System Administrator&quot; profile or with the &quot;Customer Integration&quot; permission.</description>
+    <errorConditionFormula>DU_IsCustomer__c &amp;&amp; !ISNEW() &amp;&amp; $Profile.Name != &quot;System Administrator&quot; &amp;&amp; !$Permission.DU_CustomerIntegration 
+/* please list any custom roll-up fields and fields that can be changed by non-admins */
+&amp;&amp; !ISCHANGED(DU_LastModificationOnRelatedOpportunity__c)</errorConditionFormula>
+    <errorMessage>Customers are read only. Changes are allowed only to users of the &quot;System Administrator&quot; profile or with the &quot;Customer Integration&quot; permission.</errorMessage>
+</ValidationRule>

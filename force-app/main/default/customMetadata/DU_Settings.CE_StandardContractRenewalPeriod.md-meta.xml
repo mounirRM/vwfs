@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Standard Contract Renewal Period[months]</label>
+    <protected>false</protected>
+    <values>
+        <field>DU_Description__c</field>
+        <value xsi:type="xsd:string">CDM: How many months before the contract end date is the standard renewal period</value>
+    </values>
+    <values>
+        <field>DU_Value__c</field>
+        <value xsi:type="xsd:string">6</value>
+    </values>
+</CustomMetadata>

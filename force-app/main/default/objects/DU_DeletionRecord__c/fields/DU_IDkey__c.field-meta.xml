@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_IDkey__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Type of ID for unique identification of the business object</description>
+    <externalId>false</externalId>
+    <label>Id key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

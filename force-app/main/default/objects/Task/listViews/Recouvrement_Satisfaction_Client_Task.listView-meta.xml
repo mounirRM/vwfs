@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recouvrement_Satisfaction_Client_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Recouvrement - Satisfaction Client</label>
+    <queue>Recouvrement_Satisfaction_Client</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

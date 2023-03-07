@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_Birthdate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: This custom field is used to store the Birthdate of the Contact. This is needed as Salesforce Standard Birthdate fields cannot be encrypted with Shield and they contain protected information.
+Availability 1.6.0.24</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter the Birthdate of the Contact into this field.</inlineHelpText>
+    <label>Birthdate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

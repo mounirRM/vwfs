@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_SignatureSource__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Effort based remuneration - who executed Signature of contract</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Effort based remuneration - who executed Signature of contract</inlineHelpText>
+    <label>Signature/Contract Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>DU_RemunerationSource</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_PassedToProvidingPartner__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Indicates the Date and Time the Offer was passed to Dealer.</description>
+    <externalId>false</externalId>
+    <label>Passed to providing Partner</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

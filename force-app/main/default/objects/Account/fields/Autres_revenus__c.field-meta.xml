@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autres_revenus__c</fullName>
+    <description>Salaires / Chômage / Pensions / Retraites / Revenus de capitaux mobilier / Revenus immobiliers / les professions libérales = revenus non commerciaux / artisans = les revenus industriels et commerciaux / les agriculteurs = les revenus agricoles</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Liste des autres sources de revenu</inlineHelpText>
+    <label>Autres revenus</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

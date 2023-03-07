@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>email@invalide.com.invalid</email>
+    <name>Fleet - Grands comptes</name>
+    <queueMembers>
+        <roles>
+            <role>agent_RC_ext</role>
+            <role>Fleet_Agent_Fin_de_Contrat</role>
+            <role>Fleet_Agent_RC_Fleet</role>
+            <role>Fleet_Manager_RC_Fleet</role>
+            <role>Retail_Agent_RC_Retail</role>
+            <role>Retail_Manager_RC_Retail</role>
+            <role>superviseur_RC_ext</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

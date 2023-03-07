@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_motif_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(OR(
+ISPICKVAL(Motif__c,&quot;Divers&quot;),
+ISPICKVAL(Motif__c,&quot;Assistance outil&quot;),
+ISPICKVAL(Motif__c,&quot;Délai de traitement acceptation&quot;),
+ISPICKVAL(Motif__c,&quot;Affacturage VO&quot;),
+ISPICKVAL(Motif__c,&quot;Affacturage VN&quot;),
+ISPICKVAL(Motif__c,&quot;Contactez-nous&quot;),
+ISPICKVAL(Motif__c,&quot;Documents de cession&quot;),
+ISPICKVAL(Motif__c,&quot;Demande de traitement&quot;),
+ISPICKVAL(Motif__c,&quot;Demande de renseignements compta&quot;),
+ISPICKVAL(Motif__c,&quot;Gage/publication&quot;),
+ISPICKVAL(Motif__c,&quot;Gestion double financement&quot;),
+ISPICKVAL(Motif__c,&quot;Impayés 4x sans frais&quot;),
+ISPICKVAL(Motif__c,&quot;Modification BER&quot;),
+ISPICKVAL(Motif__c,&quot;Paiement bloqué&quot;),
+ISPICKVAL(Motif__c,&quot;Post traitement&quot;),
+ISPICKVAL(Motif__c,&quot;Rétractation&quot;),
+ISPICKVAL(Motif__c,&quot;Régularisation&quot;),
+ISPICKVAL(Motif__c,&quot;Retail&quot;),
+ISPICKVAL(Motif__c,&quot;Règlement (réduction de capital)&quot;),
+ISPICKVAL(Motif__c,&quot;Demande de paiement RAC&quot;),
+ISPICKVAL(Motif__c,&quot;Selfpayment&quot;),
+ISPICKVAL(Motif__c,&quot;Stand alone&quot;),
+ISPICKVAL(Motif__c,&quot;Suivi 4x sans frais&quot;),
+ISPICKVAL(Motif__c,&quot;Suivi de paiement&quot;),
+ISPICKVAL(Motif__c,&quot;Transfert vendeur&quot;),
+ISPICKVAL(Motif__c,&quot;Documents de cession&quot;),
+ISPICKVAL(Motif__c,&quot;Factures de cession&quot;),
+ISPICKVAL(Motif__c,&quot;PV de restitution&quot;),
+ISPICKVAL(Motif__c,&quot;Règlement (solde)&quot;),
+ISPICKVAL(Motif__c,&quot;Régularisation comptable&quot;),
+ISPICKVAL(Motif__c,&quot;Fin de contrat&quot;),
+ISPICKVAL(Motif__c,&quot;Insatisfaction RC retail&quot;),
+ISPICKVAL(Motif__c,&quot;Insatisfaction Réseau&quot;),
+ISPICKVAL(Motif__c,&quot;Panne / Dysfonctionnement véhicule&quot;),
+ISPICKVAL(Motif__c,&quot;Prestations et Services (ext gar, FSE, GAVN,GAVO)&quot;),
+ISPICKVAL(Motif__c,&quot;Recours juridique (Avocat, protection juridique, mediateur, association)&quot;),
+ISPICKVAL(Motif__c,&quot;Modification&quot;),
+ISPICKVAL(Motif__c,&quot;Echange et suivi de la partie contractuelle&quot;),
+ISPICKVAL(Motif__c,&quot;Echange et suivi acceptation&quot;),
+ISPICKVAL(Motif__c,&quot;Réclamation&quot;))),
+
+NOT(OR(ISPICKVAL(Origin,&quot;Email&quot;),ISPICKVAL(Origin,&quot;Web&quot;),ISPICKVAL(Origin,&quot;Gestion_d_impaye&quot;))),
+
+ISBLANK(TEXT(Sous_motif__c)))</errorConditionFormula>
+    <errorMessage>Veuillez remplir le champ Motif et le Sous-motif</errorMessage>
+</ValidationRule>

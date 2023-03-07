@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMPG_PCL_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CMPG PCL</label>
+    <queue>CMPG_PCL</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

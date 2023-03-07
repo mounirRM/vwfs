@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sous_statut__c</fullName>
+    <externalId>false</externalId>
+    <label>Sous-statut</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>Acceptation</fullName>
+                <default>false</default>
+                <label>Acceptation</label>
+            </value>
+            <value>
+                <fullName>Recouvrement</fullName>
+                <default>false</default>
+                <label>Recouvrement</label>
+            </value>
+            <value>
+                <fullName>Paiement</fullName>
+                <default>false</default>
+                <label>Paiement</label>
+            </value>
+            <value>
+                <fullName>Commerce</fullName>
+                <default>false</default>
+                <label>Commerce</label>
+            </value>
+            <value>
+                <fullName>VO</fullName>
+                <default>false</default>
+                <label>VO</label>
+            </value>
+            <value>
+                <fullName>VR</fullName>
+                <default>false</default>
+                <label>VR</label>
+            </value>
+            <value>
+                <fullName>PF Technique</fullName>
+                <default>false</default>
+                <label>PF Technique</label>
+            </value>
+            <value>
+                <fullName>Réseau/partenaire</fullName>
+                <default>false</default>
+                <label>Réseau/partenaire</label>
+            </value>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>RC Retail</fullName>
+                <default>false</default>
+                <label>RC Retail</label>
+            </value>
+            <value>
+                <fullName>RC Fleet</fullName>
+                <default>false</default>
+                <label>RC Fleet</label>
+            </value>
+            <value>
+                <fullName>Offre plus</fullName>
+                <default>false</default>
+                <label>Offre plus</label>
+            </value>
+            <value>
+                <fullName>Grand Compte</fullName>
+                <default>false</default>
+                <label>Grand Compte</label>
+            </value>
+            <value>
+                <fullName>Crédit réseau</fullName>
+                <default>false</default>
+                <label>Crédit réseau</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Compliance</fullName>
+                <default>false</default>
+                <label>Compliance</label>
+            </value>
+            <value>
+                <fullName>RISK VR</fullName>
+                <default>false</default>
+                <label>RISK VR</label>
+            </value>
+            <value>
+                <fullName>VGF</fullName>
+                <default>false</default>
+                <label>VGF</label>
+            </value>
+            <value>
+                <fullName>Validation supérieur</fullName>
+                <default>false</default>
+                <label>Validation supérieur</label>
+            </value>
+            <value>
+                <fullName>Organes de la procédure</fullName>
+                <default>false</default>
+                <label>Organes de la procédure</label>
+            </value>
+            <value>
+                <fullName>Comptabilité</fullName>
+                <default>false</default>
+                <label>Comptabilité</label>
+            </value>
+            <value>
+                <fullName>Trésorerie</fullName>
+                <default>false</default>
+                <label>Trésorerie</label>
+            </value>
+            <value>
+                <fullName>Prestataire judiciaire</fullName>
+                <default>false</default>
+                <label>Prestataire judiciaire</label>
+            </value>
+            <value>
+                <fullName>Enquêteur</fullName>
+                <default>false</default>
+                <label>Enquêteur</label>
+            </value>
+            <value>
+                <fullName>Prestataires divers</fullName>
+                <default>false</default>
+                <label>Prestataires divers</label>
+            </value>
+            <value>
+                <fullName>Services internes</fullName>
+                <default>false</default>
+                <label>Services internes</label>
+            </value>
+            <value>
+                <fullName>Organes judiciaires</fullName>
+                <default>false</default>
+                <label>Organes judiciaires</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_Website__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: In order to mark a listing available for a website.</description>
+    <externalId>false</externalId>
+    <label>Website</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VWFS brand website</fullName>
+                <default>false</default>
+                <label>VWFS brand website</label>
+            </value>
+            <value>
+                <fullName>Dealer website</fullName>
+                <default>false</default>
+                <label>Dealer website</label>
+            </value>
+            <value>
+                <fullName>VWFS market website</fullName>
+                <default>false</default>
+                <label>VWFS market website</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

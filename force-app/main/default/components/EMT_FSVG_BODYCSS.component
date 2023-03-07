@@ -1,0 +1,214 @@
+<apex:component access="global">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width,user-scalable=0, initial-scale=1.0"></meta>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta>
+    <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+    <title></title>
+    <style type="text/css">
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        span.yshortcuts {
+            color: #000;
+            background-color: none;
+            border: none;
+        }
+
+        span.yshortcuts:hover,
+        span.yshortcuts:active,
+        span.yshortcuts:focus {
+            color: #000;
+            background-color: none;
+            border: none;
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0;
+            background-color: #f5f2e9;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        .webkit {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .outer {
+            margin: 0 auto;
+            width: 100% !important;
+            max-width: 640px;
+        }
+
+        .full-width-image img {
+            width: 100%;
+            max-width: 640px;
+            height: auto;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        @media screen and (orientation:portrait) and (max-device-width: 480px),
+        screen and (max-width: 480px),
+        screen and (max-width: 5in) {
+            .Gmail {
+                width: 300px !important;
+            }
+
+            .mobileDisplay {
+                display: table !important;
+                float: none !important;
+                overflow: visible !important;
+                height: auto !important;
+            }
+
+            .desktopHidden {
+                display: none !important;
+            }
+
+            .centered {
+                text-align: center !important;
+            }
+
+            .lefted {
+                text-align: left !important;
+            }
+
+            .h10 {
+                height: 10px !important;
+            }
+
+            .h94 {
+                height: 94px !important;
+            }
+
+            .h195 {
+                height: 195px !important;
+            }
+
+            .h285 {
+                height: 285px !important;
+            }
+
+            .mw300 {
+                max-width: 300px !important;
+            }
+
+            .mw290 {
+                max-width: 290px !important;
+            }
+
+            .w5 {
+                width: 5px !important;
+            }
+
+            .w20 {
+                max-width: 20px !important;
+            }
+
+            .mw20 {
+                width: 20px !important;
+            }
+
+            .w10 {
+                width: 10px !important;
+            }
+
+            .w40 {
+                width: 40px !important;
+            }
+
+            .w200 {
+                width: 200px !important;
+            }
+
+            .w245 {
+                width: 245px !important;
+            }
+
+            .w224 {
+                width: 224px !important;
+            }
+
+            .w280 {
+                width: 280px !important;
+            }
+
+            .full-width-image img {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+            }
+        }
+
+        @media screen and (min-width: 768px) {}
+
+        @media screen and (min-width: 480px) {
+            body[yahoo].mobileDisplay {
+                display: none !important;
+            }
+        }
+
+        span.yshortcuts {
+            color: #000;
+            background-color: none;
+            border: none;
+        }
+
+        span.yshortcuts:hover,
+        span.yshortcuts:active,
+        span.yshortcuts:focus {
+            color: #000;
+            background-color: none;
+            border: none;
+        }
+    </style>
+    <!--[if (gte mso 9)|(IE)]>
+		<style type="text/css">
+		table {border-collapse: collapse;}
+		</style>
+		<![endif]-->
+    <!--[if gte mso 9]>
+			<xml>
+			<o:OfficeDocumentSettings>
+			<o:AllowPNG/>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+			</xml>
+		<![endif]-->
+</head>
+</apex:component>

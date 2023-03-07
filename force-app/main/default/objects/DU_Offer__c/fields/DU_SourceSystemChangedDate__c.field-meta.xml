@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_SourceSystemChangedDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Contains the date the record was last changed in the source system (timebased validity of data)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contains the date the record was last changed in the source system (timebased validity of data)</inlineHelpText>
+    <label>Source System Changed Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

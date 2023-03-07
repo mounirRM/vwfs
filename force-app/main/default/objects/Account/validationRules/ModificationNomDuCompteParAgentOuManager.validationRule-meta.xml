@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ModificationNomDuCompteParAgentOuManager</fullName>
+    <active>true</active>
+    <description>Cette règle empêche la modification du nom du Compte si le profil de l&apos;utilisateur est &quot;Agent&quot; ou &quot;Manager&quot;</description>
+    <errorConditionFormula>AND(
+OR(
+ISCHANGED(Name),
+ISCHANGED(Salutation)
+),
+OR(
+$Profile.Name = &apos;Agent&apos;,
+$Profile.Name = &apos;Manager&apos;
+)
+)</errorConditionFormula>
+    <errorMessage>Vos privilèges ne vous permettent pas de modifier ce champ</errorMessage>
+</ValidationRule>

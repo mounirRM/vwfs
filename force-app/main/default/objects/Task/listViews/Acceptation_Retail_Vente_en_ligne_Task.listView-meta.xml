@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acceptation_Retail_Vente_en_ligne_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Acceptation Retail Vente en ligne</label>
+    <queue>Acceptation_Retail_Vente_en_ligne</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

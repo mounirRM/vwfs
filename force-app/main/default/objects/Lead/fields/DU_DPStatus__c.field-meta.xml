@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_DPStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Stores the data processing status value and is used to restrict processing of the records for various user roles or to flag record for the deletion process</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores the data processing status value from Customer Master Data System and will be used to hide the records from various user roles.</inlineHelpText>
+    <label>DP Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>DU_DPStatus</valueSetName>
+    </valueSet>
+</CustomField>

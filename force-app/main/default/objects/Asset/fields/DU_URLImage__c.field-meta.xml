@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_URLImage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: The field to enable the image display.</description>
+    <externalId>false</externalId>
+    <label>URL Image</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

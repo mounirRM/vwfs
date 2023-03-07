@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_Asset__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>CDM: Connection to specific customer asset related to campaign member to use vehicle information in campaigns (e.g. VIN, Model, …)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Connection to specific customer asset related to campaign member to use vehicle information in campaigns (e.g. VIN, Model, …)</inlineHelpText>
+    <label>Asset</label>
+    <referenceTo>Asset</referenceTo>
+    <relationshipLabel>Campaign Members</relationshipLabel>
+    <relationshipName>DU_CampaignMembers</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

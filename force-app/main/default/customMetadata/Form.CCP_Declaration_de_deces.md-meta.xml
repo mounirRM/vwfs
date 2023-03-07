@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CCP_Declaration_de_deces</label>
+    <protected>false</protected>
+    <values>
+        <field>CaseReason__c</field>
+        <value xsi:type="xsd:string">Gestion sinistre à la personne</value>
+    </values>
+    <values>
+        <field>CaseSubReason__c</field>
+        <value xsi:type="xsd:string">Gestion décès</value>
+    </values>
+    <values>
+        <field>ContactEmailLabel__c</field>
+        <value xsi:type="xsd:string">E-mail :</value>
+    </values>
+    <values>
+        <field>ContractNumberLabel__c</field>
+        <value xsi:type="xsd:string">Numéro de contrat :</value>
+    </values>
+    <values>
+        <field>Equipe__c</field>
+        <value xsi:type="xsd:string">Retail - Sinistres</value>
+    </values>
+    <values>
+        <field>Folder__c</field>
+        <value xsi:type="xsd:string">B2C</value>
+    </values>
+    <values>
+        <field>Queue__c</field>
+        <value xsi:type="xsd:string">Retail_Sinistres</value>
+    </values>
+    <values>
+        <field>Subject__c</field>
+        <value xsi:type="xsd:string">CCP_Déclaration de décès</value>
+    </values>
+</CustomMetadata>

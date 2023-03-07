@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Liens_entre_co_emprunteurs__c</fullName>
+    <externalId>false</externalId>
+    <label>Liens entre co-emprunteurs</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ami</fullName>
+                <default>false</default>
+                <label>Ami</label>
+            </value>
+            <value>
+                <fullName>Autre relation</fullName>
+                <default>false</default>
+                <label>Autre relation</label>
+            </value>
+            <value>
+                <fullName>Bénéficiaire effectif</fullName>
+                <default>false</default>
+                <label>Bénéficiaire effectif</label>
+            </value>
+            <value>
+                <fullName>Concubin(e)</fullName>
+                <default>false</default>
+                <label>Concubin(e)</label>
+            </value>
+            <value>
+                <fullName>Ayant-droit</fullName>
+                <default>false</default>
+                <label>Ayant-droit</label>
+            </value>
+            <value>
+                <fullName>Fille</fullName>
+                <default>false</default>
+                <label>Fille</label>
+            </value>
+            <value>
+                <fullName>Fils</fullName>
+                <default>false</default>
+                <label>Fils</label>
+            </value>
+            <value>
+                <fullName>Frère</fullName>
+                <default>false</default>
+                <label>Frère</label>
+            </value>
+            <value>
+                <fullName>Marié(e)</fullName>
+                <default>false</default>
+                <label>Marié(e)</label>
+            </value>
+            <value>
+                <fullName>Mère</fullName>
+                <default>false</default>
+                <label>Mère</label>
+            </value>
+            <value>
+                <fullName>Pacsé(e)</fullName>
+                <default>false</default>
+                <label>Pacsé(e)</label>
+            </value>
+            <value>
+                <fullName>Père</fullName>
+                <default>false</default>
+                <label>Père</label>
+            </value>
+            <value>
+                <fullName>Sœur</fullName>
+                <default>false</default>
+                <label>Sœur</label>
+            </value>
+            <value>
+                <fullName>Sans relation</fullName>
+                <default>false</default>
+                <label>Sans relation</label>
+            </value>
+            <value>
+                <fullName>Tiers payeur</fullName>
+                <default>false</default>
+                <label>Tiers payeur</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

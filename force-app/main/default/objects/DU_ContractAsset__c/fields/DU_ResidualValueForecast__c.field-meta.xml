@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ResidualValueForecast__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Expected marketing revenue of the vehicle at the end of the contract (updated forecast value based on current market knowledge) Basis for creating risk provisions (contractual residual value - forecast value = risk provision)</description>
+    <externalId>false</externalId>
+    <label>Forceasted Residual Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

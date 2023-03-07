@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nb_de_contrats_terme_dans_les_6_mois__c</fullName>
+    <externalId>false</externalId>
+    <label>Nb de contrats à terme dans les 6 mois</label>
+    <summaryFilterItems>
+        <field>Contract__c.RollUpAccountFieldsValue__c</field>
+        <operation>equals</operation>
+        <value>6</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Contract__c.Compte_client_associe__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

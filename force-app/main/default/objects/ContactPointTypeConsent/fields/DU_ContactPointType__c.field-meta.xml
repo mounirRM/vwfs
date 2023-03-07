@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ContactPointType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: The field contains the available channels the consent is gathered for. The standard Salesforce field is not used because of limited values.</description>
+    <externalId>false</externalId>
+    <label>Contact Point Type</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <label>Web</label>
+            </value>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>MailingAddress</fullName>
+                <default>false</default>
+                <label>Mailing Address</label>
+            </value>
+            <value>
+                <fullName>SMSandOther</fullName>
+                <default>false</default>
+                <label>SMS and Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

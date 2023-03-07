@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_AllowRolesPerAccountRecordType</fullName>
+    <active>true</active>
+    <errorConditionFormula>((ISPICKVAL(DU_Role__c, &quot;Fleet Manager&quot;) || ISPICKVAL(DU_Role__c, &quot;Driver&quot;)) &amp;&amp; Account.RecordType.DeveloperName != &quot;DU_BusinessAccount&quot;) ||
+((ISPICKVAL(DU_Role__c, &quot;Service&quot;) || ISPICKVAL(DU_Role__c, &quot;Sales&quot;)) &amp;&amp; Account.RecordType.DeveloperName != &quot;DU_DealerAccount&quot;)</errorConditionFormula>
+    <errorDisplayField>DU_Role__c</errorDisplayField>
+    <errorMessage>The parent account&apos;s record type is driving which contact roles are allowed.</errorMessage>
+</ValidationRule>

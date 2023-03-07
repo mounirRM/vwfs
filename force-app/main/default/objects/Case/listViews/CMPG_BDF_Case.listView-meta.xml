@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMPG_BDF_Case</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>Contrat__c</columns>
+    <columns>Code_statut_contrat__c</columns>
+    <columns>Date_d_ch_ance__c</columns>
+    <columns>Montant_de_l_impay__c</columns>
+    <columns>Nombre_d_impay_s__c</columns>
+    <columns>Montant_solde_client__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Résolue,Absence de retour client,Absence de retour partenaire,Requête déjà traitée (doublon),Requête annulée (le client ne souhaite pas donner suite),Erreur destinataire,Opportunité commerciale,Fusionnée</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Résolue (via requête fille)</value>
+    </filters>
+    <label>CMPG BDF</label>
+    <queue>CMPG_BDF</queue>
+    <sharedTo>
+        <role>Recouvrement_Administratif_Banque_de_France</role>
+        <role>Recouvrement_Manager</role>
+        <role>Recouvrement_Manager_Departement</role>
+        <role>Recouvrement_Manager_Fraude_Reclamation</role>
+        <role>VWFS</role>
+    </sharedTo>
+</ListView>

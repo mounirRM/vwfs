@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CCP_Fleet Duplicata carte grise</label>
+    <protected>false</protected>
+    <values>
+        <field>CaseReason__c</field>
+        <value xsi:type="xsd:string">Démarches carte grise</value>
+    </values>
+    <values>
+        <field>CaseSubReason__c</field>
+        <value xsi:type="xsd:string">Carte grise - en cours de contrat</value>
+    </values>
+    <values>
+        <field>ContactEmailLabel__c</field>
+        <value xsi:type="xsd:string">E-mail :</value>
+    </values>
+    <values>
+        <field>ContractNumberLabel__c</field>
+        <value xsi:type="xsd:string">Numéro de contrat :</value>
+    </values>
+    <values>
+        <field>Equipe__c</field>
+        <value xsi:type="xsd:string">Fleet - RC</value>
+    </values>
+    <values>
+        <field>Folder__c</field>
+        <value xsi:type="xsd:string">B2C</value>
+    </values>
+    <values>
+        <field>Queue__c</field>
+        <value xsi:type="xsd:string">Fleet_RC</value>
+    </values>
+    <values>
+        <field>Subject__c</field>
+        <value xsi:type="xsd:string">CCP_Fleet Duplicata carte grise</value>
+    </values>
+</CustomMetadata>

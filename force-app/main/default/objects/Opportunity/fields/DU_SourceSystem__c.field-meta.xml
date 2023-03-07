@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_SourceSystem__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Relates the opportunity to the source system of the application</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Relates the opportunity to the source system of the application</inlineHelpText>
+    <label>Source System</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

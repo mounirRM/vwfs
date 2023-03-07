@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ProductGroup__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Contains the VWFS product group of the contract e.g. Finance, Leasing, Insurance, Service</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contains the VWFS product group of the contract e.g. Finance, Leasing, Insurance, Service</inlineHelpText>
+    <label>Product Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>DU_ProductGroup</valueSetName>
+    </valueSet>
+</CustomField>

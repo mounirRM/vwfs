@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_Partner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>CDM: Connection to Dealer Account to get information on customers dealer (e.g. Name, Address, …)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Connection to Dealer Account to get information on customers dealer (e.g. Name, Address, …)</inlineHelpText>
+    <label>Partner</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>VWFS CRM Dealer Account</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Campaign Members</relationshipLabel>
+    <relationshipName>DU_CampaignMembersFromPartner</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_Headlights__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Specification of the headlights</description>
+    <externalId>false</externalId>
+    <label>Headlights</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unavailable</fullName>
+                <default>false</default>
+                <label>Unavailable</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Xenon</fullName>
+                <default>false</default>
+                <label>Xenon</label>
+            </value>
+            <value>
+                <fullName>Led</fullName>
+                <default>false</default>
+                <label>Led</label>
+            </value>
+            <value>
+                <fullName>Halogen</fullName>
+                <default>false</default>
+                <label>Halogen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

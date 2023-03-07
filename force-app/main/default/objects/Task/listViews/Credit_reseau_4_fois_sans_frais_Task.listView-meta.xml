@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_reseau_4_fois_sans_frais_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Crédit réseau 4 fois sans frais</label>
+    <queue>Credit_reseau_4_fois_sans_frais</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

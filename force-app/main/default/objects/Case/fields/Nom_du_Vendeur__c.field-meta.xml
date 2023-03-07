@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nom_du_Vendeur__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(Contrat__r.Contact_vendeur_associe__r.Salutation)+&apos; &apos;+Contrat__r.Contact_vendeur_associe__r.FirstName+&apos; &apos;+Contrat__r.Contact_vendeur_associe__r.LastName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Nom du Vendeur</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Produit_financier__c</fullName>
+    <externalId>false</externalId>
+    <label>Produit financier</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Crédit</fullName>
+                <default>false</default>
+                <label>Crédit</label>
+            </value>
+            <value>
+                <fullName>Crédit Bail</fullName>
+                <default>false</default>
+                <label>Crédit Bail</label>
+            </value>
+            <value>
+                <fullName>LLD</fullName>
+                <default>false</default>
+                <label>LLD</label>
+            </value>
+            <value>
+                <fullName>LOA</fullName>
+                <default>false</default>
+                <label>LOA</label>
+            </value>
+            <value>
+                <fullName>CRE</fullName>
+                <default>false</default>
+                <label>CRE</label>
+            </value>
+            <value>
+                <fullName>CRV</fullName>
+                <default>false</default>
+                <label>CRV</label>
+            </value>
+            <value>
+                <fullName>ASV</fullName>
+                <default>false</default>
+                <label>ASV</label>
+            </value>
+            <value>
+                <fullName>CRB</fullName>
+                <default>false</default>
+                <label>CRB</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

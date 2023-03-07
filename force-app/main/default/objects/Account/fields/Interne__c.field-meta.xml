@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interne__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Case qui doit être cochée si un contrat lié au compte possède un numéro de BER correspondant à de l&apos;interne</description>
+    <externalId>false</externalId>
+    <label>Interne (VDL)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

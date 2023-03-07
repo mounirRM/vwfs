@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OdigoCti__SMS</fullName>
+    <availability>online</availability>
+    <description>Odigo button : Send SMS from contact page layout</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Send SMS</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>// Create param string
+var vPhone = &apos;{!Contact.MobilePhone}&apos;;
+if (vPhone == null || vPhone == &apos;&apos;) {
+vPhone = &apos;{!Contact.Phone}&apos;;
+}
+
+var vRegExpSF = new RegExp(&quot;^\\(.*\\) [0-9]*-[0-9]*$&quot;, &quot;g&quot;);
+if (vRegExpSF.test(vPhone)) {
+vPhone = vPhone.substr(1, 3) + vPhone.substr(6, 3) + vPhone.substring(10, vPhone.length);
+}
+
+var vParams = &apos;pObjectId=&apos; + &apos;{!Contact.Id}&apos;;
+vParams += &apos;&amp;pCallerDDI=&apos; + vPhone;
+
+var vSMSPopup = window.open(&apos;/apex/OdigoCti__VFP02OdigoCTIPopupSMS?&apos; + vParams, &apos;PopupSMS&apos;,&apos;height=370,width=320,left=250,top=200,location=no,menubar=no,resizable=no,scrollbars=no,toolbar=no,titlebar=no,status=no&apos;);
+vSMSPopup.focus();</url>
+</WebLink>

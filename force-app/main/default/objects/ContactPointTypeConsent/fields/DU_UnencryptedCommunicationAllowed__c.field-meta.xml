@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_UnencryptedCommunicationAllowed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>CDM: Shows information on whether or not unencrypted email communication is allowed towards the customer. In Germany there are laws which prohibit unencrypted emails which contain personal information (e.g. email address) unless the customer gave his permission.</description>
+    <externalId>false</externalId>
+    <label>Unencrypted Communication Allowed</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_EmailAddressMandatoryIfTimeoutApplies</fullName>
+    <active>true</active>
+    <description>Timeout Notification Email Address cannot be empty when timeout is applicable</description>
+    <errorConditionFormula>DU_IsTimeoutApplicable__c &amp;&amp; ISBLANK( DU_TimeoutNotificationEmailAddress__c)</errorConditionFormula>
+    <errorDisplayField>DU_TimeoutNotificationEmailAddress__c</errorDisplayField>
+    <errorMessage>Timeout Notification Email Address cannot be empty when timeout is applicable</errorMessage>
+</ValidationRule>

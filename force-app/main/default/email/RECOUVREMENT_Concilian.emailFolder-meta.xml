@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>RECOUVREMENT_Concilian</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <role>Recouvrement_Etom_Agent</role>
+        <role>Recouvrement_Manager</role>
+        <role>ext_Amiable</role>
+    </sharedTo>
+</EmailFolder>

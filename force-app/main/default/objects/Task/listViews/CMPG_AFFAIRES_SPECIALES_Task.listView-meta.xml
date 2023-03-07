@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMPG_AFFAIRES_SPECIALES_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CMPG AFFAIRES SPECIALES</label>
+    <queue>CMPG_AFFAIRES_SPECIALES</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

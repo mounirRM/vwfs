@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMPG_Cession_de_cr_ance_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CMPG CESSION DE CREANCE</label>
+    <queue>CMPG_Cession_de_cr_ance</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

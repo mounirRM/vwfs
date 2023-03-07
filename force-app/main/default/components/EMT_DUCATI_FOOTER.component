@@ -1,0 +1,59 @@
+<apex:component access="global">
+                <apex:attribute name="URL_Footer" description="" type="String"/>
+<!--marge-->
+<table width="100%" class="w300" style="max-width:640px; table-layout:fixed; background-color: #ffffff;" cellspacing="0"
+    cellpadding="0" border="0" align="center">
+    <tr>
+        <td height="64" style="height: 64px;"></td>
+    </tr>
+</table>
+
+<!--PARTIE 3-->
+<!--START : FOOTER-->
+<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="border-spacing:0;">
+    <tr>
+        <td class="full-width-image"
+            style="line-height:0px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+            <a href="{!URL_Footer}" style="border: none; text-decoration: none;"
+                target="_blank">
+                <img src="https://{!$Label.instance_name}--c.documentforce.com/servlet/servlet.ImageServer?id={!$Label.Footer_DUCATI}&oid={!$Label.organisation_Id}" width="640"
+                    alt="Rendez-vous ici pour nous contacter DUCATI - Financial Services"
+                    style="border-width:0;width:100%;max-width:640px;height:auto;" />
+            </a>
+        </td>
+    </tr>
+</table>
+<!--END : FOOTER-->
+
+<!--PARTIE 4-->
+<!--START : MENTION-->
+<!--marge-->
+<table width="100%" class="w300" style="max-width:640px; table-layout:fixed; background-color: #d40000;" cellspacing="0"
+    cellpadding="0" border="0" align="center">
+    <tr>
+        <td height="10" style="height: 10px;"></td>
+    </tr>
+</table>
+<table cellpadding="0" cellspacing="0" align="center" style="width:100%;max-width:640px;  background-color: #d40000;">
+    <tr>
+        <td class="w20" width="40" valign="middle" style="width: 40px;"></td>
+        <td class="" valign="middle"
+            style=" color: #ffffff; font-size: 12px; font-family: Arial; text-align: left; padding: 0;">* Ducati
+            Financial Services est une marque de Volkswagen Financial Services AG utilisée par les succursales
+            françaises de Volkswagen Bank GmbH et de Volkswagen Versicherung AG. Volkswagen Bank GmbH fournit des
+            services bancaires, de location et de mobilité. Volkswagen Versicherung AG fournit des services
+            d’assurances.
+        </td>
+        <td width="20" valign="middle" style="width: 20px;"></td>
+    </tr>
+</table>
+<!--marge-->
+<table width="100%" class="w300" style="max-width:640px; table-layout:fixed; background-color: #d40000;" cellspacing="0"
+    cellpadding="0" border="0" align="center">
+    <tr>
+        <td height="10" style="height: 10px;"></td>
+    </tr>
+</table>
+<!--END : MENTION-->
+<!--End : CODE HTML-->
+</apex:component>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_reseau_affacturage_VN_Case</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>Contrat__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>Nom_de_la_concession__c</columns>
+    <columns>N_Client__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Motif__c</columns>
+    <columns>Sous_motif__c</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Code_BER__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Résolue,Absence de retour client,Absence de retour partenaire,Requête déjà traitée (doublon),Requête annulée (le client ne souhaite pas donner suite),Erreur destinataire,Opportunité commerciale,Fusionnée</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Résolue (via requête fille)</value>
+    </filters>
+    <label>Crédit réseau affacturage VN</label>
+    <queue>Credit_reseau_affacturage_VN</queue>
+    <sharedTo>
+        <role>DORAB</role>
+        <role>DORAB_Agent_Credit_Reseau</role>
+        <role>DORAB_Manager_Credit_Reseau</role>
+        <role>VWFS</role>
+    </sharedTo>
+</ListView>

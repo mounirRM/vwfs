@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Montant_d_encours_ouvert__c</fullName>
+    <description>Limite autorisée d’encours accordé à l’entité citée</description>
+    <externalId>false</externalId>
+    <label>Montant d&apos;encours ouvert</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Currency</type>
+</CustomField>

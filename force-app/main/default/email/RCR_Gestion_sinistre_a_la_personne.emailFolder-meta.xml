@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>RCR-Gestion_sinistre_a_la_personne</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <role>Retail</role>
+        <role>Retail_Agent_RC_Retail</role>
+        <role>Retail_Manager_RC_Retail</role>
+        <roleAndSubordinates>superviseur_RC_ext</roleAndSubordinates>
+        <roleAndSubordinatesInternal>Fleet_Manager_Relation_Client</roleAndSubordinatesInternal>
+    </sharedTo>
+</EmailFolder>

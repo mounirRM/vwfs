@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsDecisionnaire__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A cocher si le contact est décisionnaire</description>
+    <externalId>false</externalId>
+    <label>Décisionnaire</label>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

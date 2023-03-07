@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_reseau_RAC_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Crédit réseau RAC</label>
+    <queue>Credit_reseau_RAC</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

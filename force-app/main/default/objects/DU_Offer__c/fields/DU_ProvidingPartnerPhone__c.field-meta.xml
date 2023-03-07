@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ProvidingPartnerPhone__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Phone number of the partner.</description>
+    <externalId>false</externalId>
+    <label>Providing Partner Phone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

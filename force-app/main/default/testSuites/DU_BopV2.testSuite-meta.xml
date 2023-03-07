@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>DU_ClassifyFilesControllerTest</testClassName>
+    <testClassName>DU_ContractOfferTriggerHandlerTest</testClassName>
+    <testClassName>DU_InvokeContractDocumentClassTest</testClassName>
+    <testClassName>DU_SendEmailToCustomerTest</testClassName>
+</ApexTestSuite>

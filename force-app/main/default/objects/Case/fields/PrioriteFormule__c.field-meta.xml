@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrioriteFormule__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+OR( 
+AND(
+(LEFT(Service__c,5)=&apos;Fleet&apos;),NOT(ISPICKVAL(Origin,&apos;Web&apos;)), NOT(ISPICKVAL(Origin,&apos;Chatter Answers&apos;)), NOT(ISPICKVAL(Origin,&apos;Fax&apos;)),(TODAY()-DATEVALUE(CreatedDate))&lt;2
+),
+AND(
+(LEFT(Service__c,6)=&apos;Retail&apos;),ISPICKVAL(Origin,&apos;Web&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;1
+),
+AND(
+(LEFT(Service__c,6)=&apos;Retail&apos;),ISPICKVAL(Origin,&apos;Courrier simple&apos;),ISPICKVAL(Origin,&apos;Courrier suivi&apos;),ISPICKVAL(Origin,&apos;Courrier AR&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;3
+),
+AND(
+(LEFT(Service__c,6)=&apos;Retail&apos;),NOT(ISPICKVAL(Origin,&apos;Courrier simple&apos;)),NOT(ISPICKVAL(Origin,&apos;Courrier suivi&apos;)),NOT(ISPICKVAL(Origin,&apos;Courrier AR&apos;)),NOT(ISPICKVAL(Origin,&apos;Web&apos;)),(TODAY()-DATEVALUE(CreatedDate))&lt;2
+),
+AND(
+(LEFT(Service__c,6)=&apos;Crédit&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;0.5
+),
+AND(
+(Service__c =&apos;Recouvrement - Administratif&apos; || Service__c =&apos;Recouvrement - Tri Manuel&apos; || LEFT(Service__c,8)=&apos;Paiement&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;1
+),
+AND(
+(LEFT(Service__c,11)=&apos;Acceptation&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;2
+),
+AND(
+(Service__c =&apos;Recouvrement - Fleet&apos; || Service__c =&apos;Recouvrement - Retail&apos; || Service__c =&apos;Recouvrement - Small Fleet&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;10
+)
+)
+,&apos;Faible&apos;,
+IF(
+OR( 
+AND(
+(LEFT(Service__c,5)=&apos;Fleet&apos;),NOT(ISPICKVAL(Origin,&apos;Web&apos;)), NOT(ISPICKVAL(Origin,&apos;Chatter Answers&apos;)), NOT(ISPICKVAL(Origin,&apos;Fax&apos;)),(TODAY()-DATEVALUE(CreatedDate))&lt;4
+),
+AND(
+(LEFT(Service__c,6)=&apos;Retail&apos;),ISPICKVAL(Origin,&apos;Web&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;2
+),
+AND(
+(LEFT(Service__c,6)=&apos;Retail&apos;),ISPICKVAL(Origin,&apos;Courrier simple&apos;),ISPICKVAL(Origin,&apos;Courrier suivi&apos;),ISPICKVAL(Origin,&apos;Courrier AR&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;5
+),
+AND(
+(LEFT(Service__c,6)=&apos;Retail&apos;),NOT(ISPICKVAL(Origin,&apos;Courrier simple&apos;)),NOT(ISPICKVAL(Origin,&apos;Courrier suivi&apos;)),NOT(ISPICKVAL(Origin,&apos;Courrier AR&apos;)),NOT(ISPICKVAL(Origin,&apos;Web&apos;)),(TODAY()-DATEVALUE(CreatedDate))&lt;4
+),
+AND(
+(LEFT(Service__c,6)=&apos;Crédit&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;1
+),
+AND(
+(Service__c =&apos;Recouvrement - Administratif&apos; || Service__c =&apos;Recouvrement - Tri Manuel&apos; || LEFT(Service__c,8)=&apos;Paiement&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;2
+),
+AND(
+(LEFT(Service__c,11)=&apos;Acceptation&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;3
+),
+AND(
+(Service__c =&apos;Recouvrement - Fleet&apos; || Service__c =&apos;Recouvrement - Small Fleet&apos; || Service__c =&apos;Recouvrement - Retail&apos;),(TODAY()-DATEVALUE(CreatedDate))&lt;15
+)
+),&apos;Medium&apos;,&apos;Haute&apos;)
+)</formula>
+    <label>PrioritéFormule</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

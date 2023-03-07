@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_C360_ContractCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>DU_AccountId__c</fields>
+    <fields>DU_ProductType__c</fields>
+    <fields>DU_GrossCreditAmount__c</fields>
+    <fields>DU_Brand__c</fields>
+    <fields>DU_DateStartPlanned__c</fields>
+    <fields>DU_ContractTermPlanned__c</fields>
+    <label>DU C360 Contract Compact Layout</label>
+</CompactLayout>

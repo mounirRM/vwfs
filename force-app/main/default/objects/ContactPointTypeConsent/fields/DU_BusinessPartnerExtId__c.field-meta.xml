@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_BusinessPartnerExtId__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>CDM: For integration purposes when related to a customer record.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Concatenation of Business Partner ID, Legal Entity, and Contact Point Type with a hash (#) among them.</inlineHelpText>
+    <label>Business Partner Ext ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

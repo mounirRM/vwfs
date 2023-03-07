@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>email@invalide.com.invalid</email>
+    <name>Recouvrement - Retail</name>
+    <queueMembers>
+        <roles>
+            <role>ext_recouvrement</role>
+            <role>Recouvrement_Administratif_Banque_de_France</role>
+            <role>Recouvrement_Manager</role>
+            <role>Recouvrement_Retail_Agent_Amiable</role>
+            <role>Recouvrement_Retail_Agent_Contentieux</role>
+            <role>Recouvrement_Etom_Agent</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

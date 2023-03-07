@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_OpportunityNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Unique ID of the opportunity</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Opportunity Number (Salesforce or external system given)</inlineHelpText>
+    <label>Opportunity Number</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

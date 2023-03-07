@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_DateOfOrder__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Date on which the vehicle was ordered from the manufacturer. Lease: Date on which the leasing contract was signed by the customer. Order with the manufacturer may have been placed before or after this date.</description>
+    <externalId>false</externalId>
+    <label>Date of Order</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

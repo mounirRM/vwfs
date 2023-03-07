@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fleet_Fins_de_contrat_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Fleet - Fins de contrat</label>
+    <queue>Fleet_Fins_de_contrat</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

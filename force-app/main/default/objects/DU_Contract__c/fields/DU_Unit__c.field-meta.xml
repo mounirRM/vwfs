@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_Unit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM : This field contains the unit of aggregated values of this contract.</description>
+    <externalId>false</externalId>
+    <formula>CASE(  DU_ProductType__c  , 
+
+&quot;99.02.01&quot;, &quot;Minutes&quot;, 
+&quot;99.02.02&quot;, &quot;KWh&quot;,
+&quot;99.02.03&quot;,&quot;Liter&quot; ,
+&quot;&quot;
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Unit</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

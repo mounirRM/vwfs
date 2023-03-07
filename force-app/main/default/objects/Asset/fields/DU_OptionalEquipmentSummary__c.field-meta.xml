@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_OptionalEquipmentSummary__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Stores the equipment summary (optional).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Optional Equipment Summary</inlineHelpText>
+    <label>Optional Equipment Summary</label>
+    <length>1024</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

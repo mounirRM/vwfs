@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FR_Case_Compact_Layout</fullName>
+    <fields>Subject</fields>
+    <fields>Priority</fields>
+    <fields>CaseNumber</fields>
+    <fields>Motif__c</fields>
+    <fields>Sous_motif__c</fields>
+    <fields>Origin</fields>
+    <label>FR Case Compact Layout</label>
+</CompactLayout>

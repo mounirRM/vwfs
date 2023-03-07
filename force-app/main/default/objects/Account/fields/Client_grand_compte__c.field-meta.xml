@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_grand_compte__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Case à cocher uniquement si c&apos;est un Client grand compte</description>
+    <externalId>false</externalId>
+    <label>Client grand compte</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

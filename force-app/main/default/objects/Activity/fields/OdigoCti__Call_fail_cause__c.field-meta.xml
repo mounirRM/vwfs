@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OdigoCti__Call_fail_cause__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Cause of the fail</description>
+    <externalId>false</externalId>
+    <label>Call fail cause</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

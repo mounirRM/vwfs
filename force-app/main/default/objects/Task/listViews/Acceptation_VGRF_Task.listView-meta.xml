@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acceptation_VGRF_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Acceptation VGRF</label>
+    <queue>Acceptation_VGRF</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

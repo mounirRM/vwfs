@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RollUpAccountFieldsFormula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+ABS((MONTH( TODAY() ) +(12*(YEAR( TODAY() )-YEAR( Date_de_fin_de_contrat_prevue__c )))- MONTH( Date_de_fin_de_contrat_prevue__c )))&lt;3,
+(AND(ABS((MONTH( TODAY() ) +(12*(YEAR( TODAY() )-YEAR( Date_de_fin_de_contrat_prevue__c )))- MONTH( Date_de_fin_de_contrat_prevue__c )))=3,(DAY(TODAY())-DAY(Date_de_fin_de_contrat_prevue__c ))&gt;=0))
+),
+3,
+IF(
+OR(
+ABS((MONTH( TODAY() ) +(12*(YEAR( TODAY() )-YEAR( Date_de_fin_de_contrat_prevue__c )))- MONTH( Date_de_fin_de_contrat_prevue__c )))&lt;6,
+(AND(ABS((MONTH( TODAY() ) +(12*(YEAR( TODAY() )-YEAR( Date_de_fin_de_contrat_prevue__c )))- MONTH( Date_de_fin_de_contrat_prevue__c )))=6,(DAY(TODAY())-DAY(Date_de_fin_de_contrat_prevue__c ))&gt;=0))
+),
+6,
+IF(
+OR(
+ABS((MONTH( TODAY() ) +(12*(YEAR( TODAY() )-YEAR( Date_de_fin_de_contrat_prevue__c )))- MONTH( Date_de_fin_de_contrat_prevue__c )))&lt;12,
+(AND(ABS((MONTH( TODAY() ) +(12*(YEAR( TODAY() )-YEAR( Date_de_fin_de_contrat_prevue__c )))- MONTH( Date_de_fin_de_contrat_prevue__c )))=12,(DAY(TODAY())-DAY(Date_de_fin_de_contrat_prevue__c ))&gt;=0))
+),
+12,
+0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>RollUpAccountFieldsFormula</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

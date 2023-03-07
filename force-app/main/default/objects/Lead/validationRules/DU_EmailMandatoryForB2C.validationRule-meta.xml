@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_EmailMandatoryForB2C</fullName>
+    <active>true</active>
+    <description>Email is mandatory for B2C Leads.</description>
+    <errorConditionFormula>!DU_IsB2B__c &amp;&amp; ISBLANK(Email)</errorConditionFormula>
+    <errorDisplayField>Email</errorDisplayField>
+    <errorMessage>Email is mandatory for B2C Leads.</errorMessage>
+</ValidationRule>

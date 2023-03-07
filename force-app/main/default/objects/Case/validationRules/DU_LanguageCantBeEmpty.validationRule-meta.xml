@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_LanguageCantBeEmpty</fullName>
+    <active>true</active>
+    <description>Language can&apos;t be the EMPTY value.</description>
+    <errorConditionFormula>ISPICKVAL(DU_Language__c , &quot;EMPTY&quot;)</errorConditionFormula>
+    <errorDisplayField>DU_Language__c</errorDisplayField>
+    <errorMessage>Language  can&apos;t be the EMPTY value.</errorMessage>
+</ValidationRule>

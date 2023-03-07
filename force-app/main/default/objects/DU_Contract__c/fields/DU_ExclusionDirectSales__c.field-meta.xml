@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ExclusionDirectSales__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>CDM: Flag. Blocker for List of Clients that CANNOT be included in  Direct Sales to Lessee Journey</description>
+    <externalId>false</externalId>
+    <label>Direct Sales Exclusion</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

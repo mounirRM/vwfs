@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ChannelIcon__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Will be used to visualize through an icon the channel through which the case was logged (phone, web, e-mail).</description>
+    <externalId>false</externalId>
+    <formula>CASE( Origin ,&quot;Web&quot;, &quot;💻&quot;,
+&quot;Phone&quot;, &quot;📱&quot;,
+&quot;Email&quot;,&quot;📧&quot;,
+&quot;Email - Sales&quot;,&quot;📧&quot;,
+&quot;Email - Service&quot;,&quot;📧&quot;,
+&quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Channel Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_CustomerMustHaveBpId</fullName>
+    <active>true</active>
+    <description>Customers must have Business Partner ID filled out.</description>
+    <errorConditionFormula>RecordType.DeveloperName != &quot;DU_DealerAccount&quot; &amp;&amp; ISBLANK(DU_BusinessPartnerID__c) &amp;&amp; DU_IsCustomer__c</errorConditionFormula>
+    <errorDisplayField>DU_IsCustomer__c</errorDisplayField>
+    <errorMessage>Customers must have Business Partner ID filled out.</errorMessage>
+</ValidationRule>

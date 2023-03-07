@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>FLEET FDC - Pôle Cession</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <role>Fleet</role>
+        <role>Fleet_Agent_Fin_de_Contrat</role>
+        <role>Fleet_Agent_RC_Fleet</role>
+        <role>Fleet_Manager_Fin_de_Contrat</role>
+        <role>Fleet_Manager_RC_Fleet</role>
+        <role>Fleet_Manager_Relation_Client</role>
+        <role>agent_RC_ext</role>
+        <role>superviseur_RC_ext</role>
+        <roleAndSubordinatesInternal>Retail_Manager_RC_Retail</roleAndSubordinatesInternal>
+    </sharedTo>
+</EmailFolder>

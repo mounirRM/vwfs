@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jalon_du_contrat__c</fullName>
+    <externalId>false</externalId>
+    <label>Jalon du contrat</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accepté Définitif</fullName>
+                <default>false</default>
+                <label>Accepté Définitif</label>
+            </value>
+            <value>
+                <fullName>Accepté Définitif - Auto</fullName>
+                <default>false</default>
+                <label>Accepté Définitif - Auto</label>
+            </value>
+            <value>
+                <fullName>Accepté sous réserve - Auto</fullName>
+                <default>false</default>
+                <label>Accepté sous réserve - Auto</label>
+            </value>
+            <value>
+                <fullName>Accepté sous réserve - Docs Auto</fullName>
+                <default>false</default>
+                <label>Accepté sous réserve - Docs Auto</label>
+            </value>
+            <value>
+                <fullName>AFSP</fullName>
+                <default>false</default>
+                <label>AFSP</label>
+            </value>
+            <value>
+                <fullName>AFST</fullName>
+                <default>false</default>
+                <label>AFST</label>
+            </value>
+            <value>
+                <fullName>Annulé</fullName>
+                <default>false</default>
+                <label>Annulé</label>
+            </value>
+            <value>
+                <fullName>Bon à payer demandé</fullName>
+                <default>false</default>
+                <label>Bon à payer demandé</label>
+            </value>
+            <value>
+                <fullName>Bon à payer validé</fullName>
+                <default>false</default>
+                <label>Bon à payer validé</label>
+            </value>
+            <value>
+                <fullName>Complétude</fullName>
+                <default>false</default>
+                <label>Complétude</label>
+            </value>
+            <value>
+                <fullName>Contre proposition envoyée</fullName>
+                <default>false</default>
+                <label>Contre proposition envoyée</label>
+            </value>
+            <value>
+                <fullName>Contre proposition préparée</fullName>
+                <default>false</default>
+                <label>Contre proposition préparée</label>
+            </value>
+            <value>
+                <fullName>Demande sans suite</fullName>
+                <default>false</default>
+                <label>Demande sans suite</label>
+            </value>
+            <value>
+                <fullName>Dossier gelé</fullName>
+                <default>false</default>
+                <label>Dossier gelé</label>
+            </value>
+            <value>
+                <fullName>Dossier payé</fullName>
+                <default>false</default>
+                <label>Dossier payé</label>
+            </value>
+            <value>
+                <fullName>Erreur sur le type d&apos;acteur</fullName>
+                <default>false</default>
+                <label>Erreur sur le type d&apos;acteur</label>
+            </value>
+            <value>
+                <fullName>Etude</fullName>
+                <default>false</default>
+                <label>Etude</label>
+            </value>
+            <value>
+                <fullName>Etude - Auto</fullName>
+                <default>false</default>
+                <label>Etude - Auto</label>
+            </value>
+            <value>
+                <fullName>Fraude calculée</fullName>
+                <default>false</default>
+                <label>Fraude calculée</label>
+            </value>
+            <value>
+                <fullName>Homonyme</fullName>
+                <default>false</default>
+                <label>Homonyme</label>
+            </value>
+            <value>
+                <fullName>KO Technique</fullName>
+                <default>false</default>
+                <label>KO Technique</label>
+            </value>
+            <value>
+                <fullName>Paiement en cours</fullName>
+                <default>false</default>
+                <label>Paiement en cours</label>
+            </value>
+            <value>
+                <fullName>Paiement KO</fullName>
+                <default>false</default>
+                <label>Paiement KO</label>
+            </value>
+            <value>
+                <fullName>Proposition soumise</fullName>
+                <default>false</default>
+                <label>Proposition soumise</label>
+            </value>
+            <value>
+                <fullName>Refus</fullName>
+                <default>false</default>
+                <label>Refus</label>
+            </value>
+            <value>
+                <fullName>Refus - Auto</fullName>
+                <default>false</default>
+                <label>Refus - Auto</label>
+            </value>
+            <value>
+                <fullName>Rejeté</fullName>
+                <default>false</default>
+                <label>Rejeté</label>
+            </value>
+            <value>
+                <fullName>Rejeté pour une contre proposition</fullName>
+                <default>false</default>
+                <label>Rejeté pour une contre proposition</label>
+            </value>
+            <value>
+                <fullName>Scoring en cours</fullName>
+                <default>false</default>
+                <label>Scoring en cours</label>
+            </value>
+            <value>
+                <fullName>Selfpaiement demandé</fullName>
+                <default>false</default>
+                <label>Selfpaiement demandé</label>
+            </value>
+            <value>
+                <fullName>Selfpayment demandé</fullName>
+                <default>false</default>
+                <label>Selfpayment demandé</label>
+            </value>
+            <value>
+                <fullName>Sous réserve</fullName>
+                <default>false</default>
+                <label>Sous réserve</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

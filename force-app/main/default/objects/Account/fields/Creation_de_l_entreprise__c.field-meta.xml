@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Creation_de_l_entreprise__c</fullName>
+    <description>Date de création de l&apos;entreprise</description>
+    <externalId>false</externalId>
+    <label>Création de l&apos;entreprise</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_MobileVerified__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Indicates if the email is verified by customer confirming the access to the mobile number. Availability 2.1.0-2</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if the email is verified by customer confirming the access to the mobile number.</inlineHelpText>
+    <label>Mobile Verified</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

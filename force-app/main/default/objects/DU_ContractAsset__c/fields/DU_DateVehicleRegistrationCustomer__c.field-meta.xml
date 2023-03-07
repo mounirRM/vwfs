@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_DateVehicleRegistrationCustomer__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Date of admission to the contract holder/policyholder.
+Leasis: Date of registration of the leased car. In most cases it corresponds to the contract start date.</description>
+    <externalId>false</externalId>
+    <label>Date Vehicle Registration Customer</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

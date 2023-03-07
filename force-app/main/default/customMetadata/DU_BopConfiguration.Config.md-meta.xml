@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Config</label>
+    <protected>false</protected>
+    <values>
+        <field>DU_BffApiKey__c</field>
+        <value xsi:type="xsd:string">leDtneqas7b8rV5zue3AWg9a5epj3FmS</value>
+    </values>
+    <values>
+        <field>DU_IsTimeoutApplicable__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>DU_RetentionPeriod__c</field>
+        <value xsi:type="xsd:double">30.0</value>
+    </values>
+    <values>
+        <field>DU_TimeoutNotificationEmailAddress__c</field>
+        <value xsi:type="xsd:string">extern.maroussia.arnault@vwfs.io</value>
+    </values>
+</CustomMetadata>

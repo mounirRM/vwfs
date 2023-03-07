@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>email@invalide.com.invalid</email>
+    <name>Fleet - VDL</name>
+    <queueMembers>
+        <roleAndSubordinatesInternal>
+            <roleAndSubordinateInternal>Fleet</roleAndSubordinateInternal>
+            <roleAndSubordinateInternal>Retail_Manager_RC_Retail</roleAndSubordinateInternal>
+        </roleAndSubordinatesInternal>
+        <roles>
+            <role>agent_RC_ext</role>
+            <role>superviseur_RC_ext</role>
+        </roles>
+        <users>
+            <user>b.gallet@fr.vwfsag.de.fr.prod</user>
+            <user>s.boussaada@fr.vwfsag.de.fr.prod</user>
+            <user>v.rigal@fr.vwfsag.de.fr.prod</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

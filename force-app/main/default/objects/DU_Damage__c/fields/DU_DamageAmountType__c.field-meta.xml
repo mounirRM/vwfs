@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_DamageAmountType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Type of damage amount/reduced value (e.g. Repair costs, depreciation)</description>
+    <externalId>false</externalId>
+    <label>Type of Damage Amount</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RepairCosts</fullName>
+                <default>false</default>
+                <label>Repair Costs</label>
+            </value>
+            <value>
+                <fullName>Depreciation</fullName>
+                <default>false</default>
+                <label>Depreciation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

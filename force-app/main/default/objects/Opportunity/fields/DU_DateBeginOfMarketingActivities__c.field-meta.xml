@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_DateBeginOfMarketingActivities__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Global Field used for more accurate Opportunity reporting. In Order to work with an opportunity it is usually required to send the customer marketing communication. The Date of this initial send out should be stored on the opportunity in order to enable it as a field/ additional information in reports.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Global Field used for more accurate Opportunity reporting. In Order to work with an opportunity it is usually required to send the customer marketing communication. The Date of this initial send out should be stored on the opportunity in order to enable it as a field/ additional information in reports.</inlineHelpText>
+    <label>Sent Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

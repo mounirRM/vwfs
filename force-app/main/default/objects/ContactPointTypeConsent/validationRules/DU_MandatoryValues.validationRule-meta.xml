@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_MandatoryValues</fullName>
+    <active>true</active>
+    <description>Mandatory fields for Contact Point Type Consent records.</description>
+    <errorConditionFormula>ISPICKVAL(DU_LegalEntity__c, &quot;&quot;) || ISBLANK(EffectiveFrom) || ISBLANK(CaptureDate) || ISBLANK(CaptureSource)</errorConditionFormula>
+    <errorMessage>Following fields are required: Legal Entity, Effective From, Capture Date, Capture Source.</errorMessage>
+</ValidationRule>

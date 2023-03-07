@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>email@invalide.com.invalid</email>
+    <name>Crédit réseau affacturage VN</name>
+    <queueMembers>
+        <roles>
+            <role>DORAB</role>
+            <role>DORAB_Agent_Credit_Reseau</role>
+            <role>DORAB_Manager_Credit_Reseau</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_MasterConsentSystemPendingUpdate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>CDM: whether a master consent system is yet to acknowledge that it received an update in this consent record.</description>
+    <externalId>false</externalId>
+    <label>Master Consent System Pending Update</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ConsentPendingUpdateBatchRan__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>CDM: true if a batch notifying the master consent system about a consent update has already ran. To be evaluated together with DU_MasterConsentSystemPendingUpdate__c.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>true if a batch notifying the master consent system about a consent update has already ran. To be evaluated together with DU_MasterConsentSystemPendingUpdate__c.</inlineHelpText>
+    <label>Consent Pending Update Batch Ran</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

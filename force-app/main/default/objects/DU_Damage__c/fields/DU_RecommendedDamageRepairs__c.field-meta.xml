@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_RecommendedDamageRepairs__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Recommended damage repair</description>
+    <externalId>false</externalId>
+    <label>Recommended Damage Repairs</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

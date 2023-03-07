@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_InteractionPoint__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Stores the interaction step on which the task/event is created.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contains the Status value from the Interaction Points from the DU Journey</inlineHelpText>
+    <label>Interaction Point</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Interest Demonstrated</fullName>
+                <default>false</default>
+                <label>Product Interest Demonstrated</label>
+            </value>
+            <value>
+                <fullName>Contact Form Submitted</fullName>
+                <default>false</default>
+                <label>Contact Form Submitted</label>
+            </value>
+            <value>
+                <fullName>Product Configuration Completed</fullName>
+                <default>false</default>
+                <label>Product Configuration Completed</label>
+            </value>
+            <value>
+                <fullName>Product Price Requested</fullName>
+                <default>false</default>
+                <label>Product Price Requested</label>
+            </value>
+            <value>
+                <fullName>Identification Details Provided</fullName>
+                <default>false</default>
+                <label>Identification Details Provided</label>
+            </value>
+            <value>
+                <fullName>Contact Details Provided</fullName>
+                <default>false</default>
+                <label>Contact Details Provided</label>
+            </value>
+            <value>
+                <fullName>Payment Details Provided</fullName>
+                <default>false</default>
+                <label>Payment Details Provided</label>
+            </value>
+            <value>
+                <fullName>Documents Uploaded</fullName>
+                <default>false</default>
+                <label>Documents Uploaded</label>
+            </value>
+            <value>
+                <fullName>Product Application Submitted</fullName>
+                <default>false</default>
+                <label>Product Application Submitted</label>
+            </value>
+            <value>
+                <fullName>Dealer Appointment Selected</fullName>
+                <default>false</default>
+                <label>Dealer Appointment Selected</label>
+            </value>
+            <value>
+                <fullName>Delivery Appointment Selected</fullName>
+                <default>false</default>
+                <label>Delivery Appointment Selected</label>
+            </value>
+            <value>
+                <fullName>Contract Signed and Approved by VWFS</fullName>
+                <default>false</default>
+                <label>Contract Signed and Approved by VWFS</label>
+            </value>
+            <value>
+                <fullName>Contract Rejected by VWFS</fullName>
+                <default>false</default>
+                <label>Contract Rejected by VWFS</label>
+            </value>
+            <value>
+                <fullName>Contract Details Visited/Viewed</fullName>
+                <default>false</default>
+                <label>Contract Details Visited/Viewed</label>
+            </value>
+            <value>
+                <fullName>Journey Abandoned</fullName>
+                <default>false</default>
+                <label>Journey Abandoned</label>
+            </value>
+            <value>
+                <fullName>Continue Later Request Submitted</fullName>
+                <default>false</default>
+                <label>Continue Later Request Submitted</label>
+            </value>
+            <value>
+                <fullName>Error Received</fullName>
+                <default>false</default>
+                <label>Error Received</label>
+            </value>
+            <value>
+                <fullName>Email Confirmation Sent</fullName>
+                <default>false</default>
+                <label>Email Confirmation Sent</label>
+            </value>
+            <value>
+                <fullName>Email Reminder Sent</fullName>
+                <default>false</default>
+                <label>Email Reminder Sent</label>
+            </value>
+            <value>
+                <fullName>Email Sent</fullName>
+                <default>false</default>
+                <label>Email Sent</label>
+            </value>
+            <value>
+                <fullName>Email Opened</fullName>
+                <default>false</default>
+                <label>Email Opened</label>
+            </value>
+            <value>
+                <fullName>Email Tracking Link Clicked</fullName>
+                <default>false</default>
+                <label>Email Tracking Link Clicked</label>
+            </value>
+            <value>
+                <fullName>Email Soft Bounced</fullName>
+                <default>false</default>
+                <label>Email Soft Bounced</label>
+            </value>
+            <value>
+                <fullName>Email Hard Bounced</fullName>
+                <default>false</default>
+                <label>Email Hard Bounced</label>
+            </value>
+            <value>
+                <fullName>Customer Unsubscribed</fullName>
+                <default>false</default>
+                <label>Customer Unsubscribed</label>
+            </value>
+            <value>
+                <fullName>Credit Check Approved</fullName>
+                <default>false</default>
+                <label>Credit Check Approved</label>
+            </value>
+            <value>
+                <fullName>Credit Check Rejected</fullName>
+                <default>false</default>
+                <label>Credit Check Rejected</label>
+            </value>
+            <value>
+                <fullName>Contract Ready</fullName>
+                <default>false</default>
+                <label>Contract Ready</label>
+            </value>
+            <value>
+                <fullName>Contract Rejected</fullName>
+                <default>false</default>
+                <label>Contract Rejected</label>
+            </value>
+            <value>
+                <fullName>Contract Accepted</fullName>
+                <default>false</default>
+                <label>Contract Accepted</label>
+            </value>
+            <value>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+                <label>Contract Signed</label>
+            </value>
+            <value>
+                <fullName>Payment Rejected</fullName>
+                <default>false</default>
+                <label>Payment Rejected</label>
+            </value>
+            <value>
+                <fullName>Softcredit Check Approved</fullName>
+                <default>false</default>
+                <label>Softcredit Check Approved</label>
+            </value>
+            <value>
+                <fullName>Softcredit Check Rejected</fullName>
+                <default>false</default>
+                <label>Softcredit Check Rejected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

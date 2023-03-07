@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_MarketValueError__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Reason for which the Market Value field has not been updated</description>
+    <externalId>false</externalId>
+    <label>Market Value Error</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Model code is missing</fullName>
+                <default>false</default>
+                <label>Model code is missing</label>
+            </value>
+            <value>
+                <fullName>Model year is missing</fullName>
+                <default>false</default>
+                <label>Model year is missing</label>
+            </value>
+            <value>
+                <fullName>Model year not found in lookup table</fullName>
+                <default>false</default>
+                <label>Model year not found in lookup table</label>
+            </value>
+            <value>
+                <fullName>First registration date is missing</fullName>
+                <default>false</default>
+                <label>First registration date is missing</label>
+            </value>
+            <value>
+                <fullName>Mileage field is missing, has wrong format or is negative</fullName>
+                <default>false</default>
+                <label>Mileage field is missing, has wrong format or is negative</label>
+            </value>
+            <value>
+                <fullName>Damage field has wrong format or is negative</fullName>
+                <default>false</default>
+                <label>Damage field has wrong format or is negative</label>
+            </value>
+            <value>
+                <fullName>List price is missing, has wrong format or is negative</fullName>
+                <default>false</default>
+                <label>List price is missing, has wrong format or is negative</label>
+            </value>
+            <value>
+                <fullName>General exception</fullName>
+                <default>false</default>
+                <label>General exception</label>
+            </value>
+            <value>
+                <fullName>Model could not be loaded</fullName>
+                <default>false</default>
+                <label>Model could not be loaded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

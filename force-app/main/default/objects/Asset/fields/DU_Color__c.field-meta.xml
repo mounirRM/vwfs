@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_Color__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Stores the color category.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores the color category.</inlineHelpText>
+    <label>Color</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>DU_Color</valueSetName>
+    </valueSet>
+</CustomField>

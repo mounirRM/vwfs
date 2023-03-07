@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_LegalEntity__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Field to capture the legal entity who is contract partner of the related case. Availability 2.1.0.3</description>
+    <externalId>false</externalId>
+    <label>Legal Entity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>DU_LegalEntity</valueSetName>
+    </valueSet>
+</CustomField>

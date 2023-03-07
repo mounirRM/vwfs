@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>DU_RemunerationApplicationLabel</fullName>
+        <categories>Effort Based Remuneration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remuneration Application Label</shortDescription>
+        <value>Application</value>
+    </labels>
+    <labels>
+        <fullName>DU_RemunerationHandoverLabel</fullName>
+        <categories>Effort Based Remuneration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remuneration Handover Label</shortDescription>
+        <value>Handover</value>
+    </labels>
+    <labels>
+        <fullName>DU_RemunerationHeadline</fullName>
+        <categories>Effort Based Remuneration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remuneration Headline</shortDescription>
+        <value>Effort Based Dealer Remuneration</value>
+    </labels>
+    <labels>
+        <fullName>DU_RemunerationLeadGenerationLabel</fullName>
+        <categories>Effort Based Remuneration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remuneration Lead Generation Label</shortDescription>
+        <value>Lead Generation</value>
+    </labels>
+    <labels>
+        <fullName>DU_RemunerationMilestoneCompleted</fullName>
+        <categories>Effort Based Remuneration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remuneration Milestone Completed</shortDescription>
+        <value>completed by</value>
+    </labels>
+    <labels>
+        <fullName>DU_RemunerationMilestoneNotCompleted</fullName>
+        <categories>Effort Based Remuneration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remuneration Milestone Not Completed</shortDescription>
+        <value>not completed</value>
+    </labels>
+    <labels>
+        <fullName>DU_RemunerationOfferLabel</fullName>
+        <categories>Effort Based Remuneration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remuneration Offer Label</shortDescription>
+        <value>Offer</value>
+    </labels>
+    <labels>
+        <fullName>DU_RemunerationSignatureLabel</fullName>
+        <categories>Effort Based Remuneration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remuneration Signature Label</shortDescription>
+        <value>Signature/ Contract</value>
+    </labels>
+    <labels>
+        <fullName>Footer_AUDI</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer_AUDI image</shortDescription>
+        <value>0153X000006QRlW</value>
+    </labels>
+    <labels>
+        <fullName>Footer_DUCATI</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer_DUCATI image</shortDescription>
+        <value>0153X000006QRlX</value>
+    </labels>
+    <labels>
+        <fullName>Footer_FSVG</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer_FSVG</shortDescription>
+        <value>0153X000006QRlY</value>
+    </labels>
+    <labels>
+        <fullName>Footer_SEAT</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer_SEAT image</shortDescription>
+        <value>0153X000006QRlZ</value>
+    </labels>
+    <labels>
+        <fullName>Footer_SKODA</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer_SKODA image</shortDescription>
+        <value>0153X000006QRla</value>
+    </labels>
+    <labels>
+        <fullName>Footer_VU</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer_VU image</shortDescription>
+        <value>0153X000006QRlb</value>
+    </labels>
+    <labels>
+        <fullName>Footer_VWFS</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer_VWFS image</shortDescription>
+        <value>0153X000006QRlc</value>
+    </labels>
+    <labels>
+        <fullName>Footer_VolkswagenFS</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer_VolkswagenFS image</shortDescription>
+        <value>0153X000006QRld</value>
+    </labels>
+    <labels>
+        <fullName>Header_AUDI</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_AUDI image</shortDescription>
+        <value>0153X000006QRle</value>
+    </labels>
+    <labels>
+        <fullName>Header_DUCATI</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_DUCATI image</shortDescription>
+        <value>0153X000006QRlf</value>
+    </labels>
+    <labels>
+        <fullName>Header_FSVG</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_FSVG image</shortDescription>
+        <value>0153X000006QRlg</value>
+    </labels>
+    <labels>
+        <fullName>Header_SEAT</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_SEAT image</shortDescription>
+        <value>0153X000006QRlh</value>
+    </labels>
+    <labels>
+        <fullName>Header_SKODA</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_SKODA image</shortDescription>
+        <value>0153X000006QRli</value>
+    </labels>
+    <labels>
+        <fullName>Header_VU</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_VU image</shortDescription>
+        <value>0153X000006QRlj</value>
+    </labels>
+    <labels>
+        <fullName>Header_VWFS</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_VWFS image</shortDescription>
+        <value>0153X000006QRlk</value>
+    </labels>
+    <labels>
+        <fullName>Header_VolkswagenFS</fullName>
+        <categories>EmailTemplateImages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_VolkswagenFS image</shortDescription>
+        <value>0153X000006QRll</value>
+    </labels>
+    <labels>
+        <fullName>domain</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>domain</shortDescription>
+        <value>https://vwfsfr.lightning.force.com/lightning/r/Case/</value>
+    </labels>
+    <labels>
+        <fullName>extRleEmailRestrictionError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>extRleEmailRestrictionError</shortDescription>
+        <value>You dont have access to send this email.</value>
+    </labels>
+    <labels>
+        <fullName>extRoleRestrictionError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>extRoleRestrictionError</shortDescription>
+        <value>You dont have the right to modify this case</value>
+    </labels>
+    <labels>
+        <fullName>instance_name</fullName>
+        <categories>GlobalValues</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>instance_name</shortDescription>
+        <value>vwfsfr</value>
+    </labels>
+    <labels>
+        <fullName>organisation_Id</fullName>
+        <categories>GlobalValues</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>organisation_Id</shortDescription>
+        <value>00D3X000001t6UC</value>
+    </labels>
+</CustomLabels>

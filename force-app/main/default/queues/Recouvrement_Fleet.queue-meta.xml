@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>email@invalide.com.invalid</email>
+    <name>Recouvrement - Fleet</name>
+    <queueMembers>
+        <roles>
+            <role>Recouvrement_Administratif_Banque_de_France</role>
+            <role>Recouvrement_Manager</role>
+            <role>Recouvrement_Fleet_Agent_Gestion_des_Flottes</role>
+            <role>Recouvrement_Etom_Agent</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

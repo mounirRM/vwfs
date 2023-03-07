@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget_mensuel__c</fullName>
+    <description>Budget définis sur la fourchette données</description>
+    <externalId>false</externalId>
+    <label>Budget mensuel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Moins de 300</fullName>
+                <default>false</default>
+                <label>Moins de 300</label>
+            </value>
+            <value>
+                <fullName>300 à 600</fullName>
+                <default>false</default>
+                <label>300 à 600</label>
+            </value>
+            <value>
+                <fullName>plus de 600</fullName>
+                <default>false</default>
+                <label>plus de 600</label>
+            </value>
+            <value>
+                <fullName>NSP (ne se prononce pas)</fullName>
+                <default>false</default>
+                <label>NSP (ne se prononce pas)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

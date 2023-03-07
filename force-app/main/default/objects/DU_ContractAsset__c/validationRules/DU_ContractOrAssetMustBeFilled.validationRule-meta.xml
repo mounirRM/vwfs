@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_ContractOrAssetMustBeFilled</fullName>
+    <active>true</active>
+    <description>Records must have at least one from the Contract and Asset relationship fields filled.</description>
+    <errorConditionFormula>ISBLANK(DU_Contract__c) &amp;&amp; ISBLANK(DU_Asset__c)</errorConditionFormula>
+    <errorMessage>At least a Contract or an Asset (or both) relationship field is required.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_TempCampaignID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Campaign Id to Identify Contacts for Campaign.</description>
+    <externalId>false</externalId>
+    <label>Temp Campaign ID</label>
+    <length>200</length>
+    <required>false</required>
+    <securityClassification>Confidential</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

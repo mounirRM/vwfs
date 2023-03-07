@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_CustomersMustBeMarkedExplicitly</fullName>
+    <active>false</active>
+    <description>Customers with Business Partner ID must have the &quot;Is Customer&quot; flag on.</description>
+    <errorConditionFormula>RecordType.DeveloperName != &quot;DU_DealerAccount&quot; &amp;&amp; !ISBLANK(DU_BusinessPartnerID__c) &amp;&amp; DU_IsCustomer__c == false</errorConditionFormula>
+    <errorDisplayField>DU_BusinessPartnerID__c</errorDisplayField>
+    <errorMessage>Customers with Business Partner ID must have the &quot;Is Customer&quot; flag on.</errorMessage>
+</ValidationRule>

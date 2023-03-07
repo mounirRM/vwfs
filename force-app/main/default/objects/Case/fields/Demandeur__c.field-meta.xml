@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demandeur__c</fullName>
+    <description>Métier du demandeur de la requête</description>
+    <externalId>false</externalId>
+    <label>Demandeur</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Avocat</fullName>
+                <default>false</default>
+                <label>Avocat</label>
+            </value>
+            <value>
+                <fullName>Notaire</fullName>
+                <default>false</default>
+                <label>Notaire</label>
+            </value>
+            <value>
+                <fullName>Police</fullName>
+                <default>false</default>
+                <label>Police</label>
+            </value>
+            <value>
+                <fullName>Protection juridique</fullName>
+                <default>false</default>
+                <label>Protection juridique</label>
+            </value>
+            <value>
+                <fullName>Association de consommateurs</fullName>
+                <default>false</default>
+                <label>Association de consommateurs</label>
+            </value>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Co-contractant</fullName>
+                <default>false</default>
+                <label>Co-contractant</label>
+            </value>
+            <value>
+                <fullName>Hors réseau</fullName>
+                <default>false</default>
+                <label>Hors réseau</label>
+            </value>
+            <value>
+                <fullName>Médiateur</fullName>
+                <default>false</default>
+                <label>Médiateur</label>
+            </value>
+            <value>
+                <fullName>Presse</fullName>
+                <default>false</default>
+                <label>Presse</label>
+            </value>
+            <value>
+                <fullName>Prestataire</fullName>
+                <default>false</default>
+                <label>Prestataire</label>
+            </value>
+            <value>
+                <fullName>Racheteur</fullName>
+                <default>false</default>
+                <label>Racheteur</label>
+            </value>
+            <value>
+                <fullName>Réseau</fullName>
+                <default>false</default>
+                <label>Réseau</label>
+            </value>
+            <value>
+                <fullName>Terrain</fullName>
+                <default>false</default>
+                <label>Terrain</label>
+            </value>
+            <value>
+                <fullName>Tiers hors contrat</fullName>
+                <default>false</default>
+                <label>Tiers hors contrat</label>
+            </value>
+            <value>
+                <fullName>VGF Direction</fullName>
+                <default>false</default>
+                <label>VGF Direction</label>
+            </value>
+            <value>
+                <fullName>VGF RC</fullName>
+                <default>false</default>
+                <label>VGF RC</label>
+            </value>
+            <value>
+                <fullName>VWFS</fullName>
+                <default>false</default>
+                <label>VWFS</label>
+            </value>
+            <value>
+                <fullName>VWFS Direction</fullName>
+                <default>false</default>
+                <label>VWFS Direction</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

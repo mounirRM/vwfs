@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>DU_AccountFactoryTest</testClassName>
+    <testClassName>DU_AutoCloseExpiredOpportunitiesTest</testClassName>
+    <testClassName>DU_BatchComputeSubscriptionsTest</testClassName>
+    <testClassName>DU_BatchCreateRenewalOpportunitiesTest</testClassName>
+    <testClassName>DU_BatchDeletionRecordsTest</testClassName>
+    <testClassName>DU_BatchPurgeDeletionRecordsTest</testClassName>
+    <testClassName>DU_CE_SettingsValueProviderTest</testClassName>
+    <testClassName>DU_ConsentsAutomationTest</testClassName>
+    <testClassName>DU_ContractFactoryTest</testClassName>
+    <testClassName>DU_ContractRenewalSelectorTest</testClassName>
+    <testClassName>DU_ContractRenewalServiceTest</testClassName>
+    <testClassName>DU_DeletionRecordServiceTest</testClassName>
+    <testClassName>DU_DeletionRecordUtilityTest</testClassName>
+    <testClassName>DU_GenerateIndividualRecordTest</testClassName>
+    <testClassName>DU_InvokeCreateRenewalOpportunitiesTest</testClassName>
+    <testClassName>DU_InvokePurgeDeletionRecordsTest</testClassName>
+    <testClassName>DU_OpportunityFactoryTest</testClassName>
+    <testClassName>DU_RenewalOpportunityFactoryTest</testClassName>
+    <testClassName>DU_SettingsControllerTest</testClassName>
+    <testClassName>DU_SettingsValueProviderTest</testClassName>
+    <testClassName>DU_SettingsWrapperTest</testClassName>
+    <testClassName>DU_TestIdGenerator</testClassName>
+    <testClassName>DU_TEST_AssetTriggerHandler</testClassName>
+    <testClassName>DU_TEST_RetentionPeriod</testClassName>
+    <testClassName>DU_UpdateCampaignMemberStatusTest</testClassName>
+</ApexTestSuite>

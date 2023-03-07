@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jalon_du_contact__c</fullName>
+    <description>Jalon sur KSIOP &gt; voir les données sur liste de sélection</description>
+    <externalId>false</externalId>
+    <label>Jalon du contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actif</fullName>
+                <default>false</default>
+                <label>Actif</label>
+            </value>
+            <value>
+                <fullName>Inactif</fullName>
+                <default>false</default>
+                <label>Inactif</label>
+            </value>
+            <value>
+                <fullName>Décédé</fullName>
+                <default>false</default>
+                <label>Décédé</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

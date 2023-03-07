@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_LeadGenerationTimestamp__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Effort based remuneration - Lead generation timestamp</description>
+    <externalId>false</externalId>
+    <label>Lead Generation Timestamp</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_PlannedDirectSalesDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Default date of Direct Sales Opportunity Creation. Timeframe is configurable by the local SF Admin of the market using Custom metadata DU_Settings and their entry DU_PlannedDirectSalesDate</description>
+    <externalId>false</externalId>
+    <formula>ADDMONTHS( DU_DateEndPlanned__c , VALUE( $CustomMetadata.DU_Settings__mdt.DU_PlannedDirectSalesDate.DU_Value__c )* (-1))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Date when system will automatically create Direct Sales Opportunity for the Contract.</inlineHelpText>
+    <label>Planned Direct Sales Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

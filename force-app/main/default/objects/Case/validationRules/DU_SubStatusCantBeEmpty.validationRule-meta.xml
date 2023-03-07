@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_SubStatusCantBeEmpty</fullName>
+    <active>true</active>
+    <description>Sub Status can&apos;t be the EMPTY value.</description>
+    <errorConditionFormula>ISPICKVAL(DU_SubStatus__c , &quot;EMPTY&quot;)</errorConditionFormula>
+    <errorDisplayField>DU_SubStatus__c</errorDisplayField>
+    <errorMessage>Sub Status can&apos;t be the EMPTY value.</errorMessage>
+</ValidationRule>

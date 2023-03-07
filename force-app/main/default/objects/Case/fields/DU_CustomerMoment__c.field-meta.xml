@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_CustomerMoment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: To be able to indicate where in the life cycle of the contract, the case has been logged. Depending on the customer moment, different case reasons may be chosen.</description>
+    <externalId>false</externalId>
+    <label>Customer Moment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sale</fullName>
+                <default>false</default>
+                <label>Sale</label>
+            </value>
+            <value>
+                <fullName>BeforeDelivery</fullName>
+                <default>false</default>
+                <label>Before Delivery</label>
+            </value>
+            <value>
+                <fullName>OngoingContract</fullName>
+                <default>false</default>
+                <label>Ongoing Contract</label>
+            </value>
+            <value>
+                <fullName>Termination</fullName>
+                <default>false</default>
+                <label>Termination</label>
+            </value>
+            <value>
+                <fullName>AfterTermination</fullName>
+                <default>false</default>
+                <label>After Termination</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

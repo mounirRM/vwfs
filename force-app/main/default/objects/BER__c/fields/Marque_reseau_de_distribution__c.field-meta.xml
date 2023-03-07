@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marque_reseau_de_distribution__c</fullName>
+    <description>Les marques présents dans le réseau de distribution</description>
+    <externalId>false</externalId>
+    <label>Marque (réseau de distribution)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Audi</fullName>
+                <default>false</default>
+                <label>Audi</label>
+            </value>
+            <value>
+                <fullName>DasWeltAuto</fullName>
+                <default>false</default>
+                <label>DasWeltAuto</label>
+            </value>
+            <value>
+                <fullName>DPS</fullName>
+                <default>false</default>
+                <label>DPS</label>
+            </value>
+            <value>
+                <fullName>Fleet Solutions</fullName>
+                <default>false</default>
+                <label>Fleet Solutions</label>
+            </value>
+            <value>
+                <fullName>Seat</fullName>
+                <default>false</default>
+                <label>Seat</label>
+            </value>
+            <value>
+                <fullName>Skoda</fullName>
+                <default>false</default>
+                <label>Skoda</label>
+            </value>
+            <value>
+                <fullName>Volkswagen</fullName>
+                <default>false</default>
+                <label>Volkswagen</label>
+            </value>
+            <value>
+                <fullName>Volkswagen Utilitaires</fullName>
+                <default>false</default>
+                <label>Volkswagen Utilitaires</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

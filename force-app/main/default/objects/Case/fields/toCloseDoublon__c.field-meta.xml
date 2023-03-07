@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>toCloseDoublon__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Champ uniquement utilisé dans les batchs recouvrement pour savoir s&apos;il faut fermer la requête ou non</description>
+    <externalId>false</externalId>
+    <label>toCloseDoublon</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SurveyUnsubscribeURL__c</fullName>
+    <description>URL désabonnement Questionnaire de satisfaction</description>
+    <externalId>false</externalId>
+    <formula>$CustomMetadata.Constantes__mdt.FR_Public_community_url.TextValue__c&amp;&quot;unsubscribe?a=&quot;&amp; UID__c</formula>
+    <label>URL désabonement QS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

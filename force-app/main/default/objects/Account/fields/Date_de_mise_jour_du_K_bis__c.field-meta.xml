@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_mise_jour_du_K_bis__c</fullName>
+    <description>Date mentionné sur courrier KBIS</description>
+    <externalId>false</externalId>
+    <label>Date de mise à jour du K-bis</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

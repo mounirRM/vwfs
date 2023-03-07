@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_OriginalContractNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Stores the number of the old contract this opportunity is based on, e.g., contract to be renewed.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Stores the number of the old contract this opportunity is based on, e.g., contract to be renewed.</inlineHelpText>
+    <label>Original Contract Number</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

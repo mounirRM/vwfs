@@ -1,0 +1,144 @@
+<apex:component access="global">
+    <apex:attribute name="brand" description="the branding that will be used to genrate the email template" type="String"/>
+    <apex:attribute name="contactFullName" description="" type="String"/>
+    <apex:attribute name="caseNumber" description="" type="String"/>
+    <apex:attribute name="ContractNumber" description="" type="String"/>
+    <apex:attribute name="NumeroClient" description="" type="String"/>
+    
+    
+    <apex:variable var="AUDI_COLOR" value="#cb1937" />
+    <apex:variable var="DUCATI_COLOR" value="#d40000" />
+    <apex:variable var="SEAT_COLOR" value="#ea5d1a" />
+    <apex:variable var="SKODA_COLOR" value="#4ba82e" />
+    <apex:variable var="FSVG_COLOR" value="#005872" />
+    <apex:variable var="VU_COLOR" value="#01386d" />
+    <apex:variable var="VWFS_COLOR" value="#005872" />
+    <apex:variable var="VOLKSWAGENFS_COLOR" value="#001e50" />
+    
+    <apex:variable var="letterhead" value="{! IF((BEGINS($UserRole.Name,'Retail')||BEGINS($UserRole.Name,'DORAB'))&&( brand=='AUDI' || brand=='DUCATI' || brand=='SEAT' || brand=='SKODA' || brand=='VW' || brand=='VU'),brand,
+                                           IF(BEGINS($UserRole.Name,'Fleet'),'FSVG',
+                                           IF(CONTAINS($UserRole.Name,'Recouvrement'),'VWFS1','VWFS'))) }"  />
+    
+    <apex:variable var="URL_Footer" value="{! IF((CONTAINS($UserRole.Name,'Recouvrement')||BEGINS($UserRole.Name,'DORAB')),'#','https://www.vwfs.fr/espace-client.html') }"  />
+    <apex:variable var="URL_Footer_FSVG" value="{! IF((CONTAINS($UserRole.Name,'Recouvrement')||BEGINS($UserRole.Name,'DORAB')),'#','https://www.fleet-solutions-volkswagen-group.fr/mon-espace-client/') }"  />
+    
+    <apex:variable var="COLOR" value="{! IF(letterhead=='AUDI',AUDI_COLOR,
+                                      IF(letterhead=='DUCATI',DUCATI_COLOR,
+                                      IF(letterhead=='SEAT',SEAT_COLOR,
+                                      IF(letterhead=='SKODA',SKODA_COLOR,
+                                      IF(letterhead=='FSVG',FSVG_COLOR,
+                                      IF(letterhead=='VW',VOLKSWAGENFS_COLOR,
+                                      IF(letterhead=='VU',VU_COLOR,VWFS_COLOR))))))) }" />
+    <apex:variable var="AUDI_BG_COLOR" value="#ffffff" />
+    <apex:variable var="DUCATI_BG_COLOR" value="#ffffff" />
+    <apex:variable var="SEAT_BG_COLOR" value="#ffffff" />
+    <apex:variable var="SKODA_BG_COLOR" value="#ffffff" />
+    <apex:variable var="FSVG_BG_COLOR" value="#f5f2e9" />
+    <apex:variable var="VU_BG_COLOR" value="#ffffff" />
+    <apex:variable var="VWFS_BG_COLOR" value="#ffffff" />
+    <apex:variable var="VOLKSWAGENFS_BG_COLOR" value="#ffffff" />
+    
+    <apex:variable var="BG_COLOR" value="{! IF(letterhead=='AUDI',AUDI_BG_COLOR,
+                                         IF(letterhead=='DUCATI',DUCATI_BG_COLOR,
+                                         IF(letterhead=='SEAT',SEAT_BG_COLOR,
+                                         IF(letterhead=='SKODA',SKODA_BG_COLOR,
+                                         IF(letterhead=='FSVG',FSVG_BG_COLOR,
+                                         IF(letterhead=='VW',VOLKSWAGENFS_BG_COLOR,
+                                         IF(letterhead=='VU',VU_BG_COLOR,VWFS_BG_COLOR))))))) }" />
+    
+    <html xmlns="http://www.w3.org/1999/xhtml">
+        <c:EMT_VWFS_BODYCSS rendered="{! letterhead==''   || (letterhead!='AUDI' && letterhead!='DUCATI' && letterhead!='FSVG' && letterhead!='SEAT' && letterhead!='SKODA' && letterhead!='VW' && letterhead!='VU') }"/>
+        <!------------------------------------------------------------------->
+        <c:EMT_AUDI_BODYCSS rendered="{! letterhead=='AUDI'}"/>
+        <!------------------------------------------------------------------->
+        <c:EMT_DUCATI_BODYCSS rendered="{! letterhead=='DUCATI'}"/>
+        <!------------------------------------------------------------------->
+        <c:EMT_FSVG_BODYCSS rendered="{! letterhead=='FSVG'}"/> 
+        <!------------------------------------------------------------------->
+        <c:EMT_SEAT_BODYCSS rendered="{! letterhead=='SEAT'}"/>
+        <!------------------------------------------------------------------->
+        <c:EMT_SKODA_BODYCSS rendered="{! letterhead=='SKODA'}"/>
+        <!------------------------------------------------------------------->
+        <c:EMT_VOLKSWAGENFS_BODYCSS rendered="{! letterhead=='VW'}"/>
+        <!------------------------------------------------------------------->
+        <c:EMT_VU_BODYCSS rendered="{! letterhead=='VU'}"/>
+        
+        
+        
+        <body yahoo="fix" style="{!'background-color: '+BG_COLOR+';'}">
+            <center style="width: 100%; table-layout: fixed; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;" class="wrapper">
+                <div style="color:#ffffff; height:0px; display:none;"></div>
+                <div class="webkit">
+                    <!--[if (gte mso 9)|(IE)]>
+<table width="640" align="center" cellpading="0" cellspacing="0" border="0"><tr><td>
+<![endif]-->
+                    <table width="100%" class="mw300" style="{! 'max-width:640px; table-layout:fixed;background-color: '+BG_COLOR+';'}" cellspacing="0" cellpadding="0" border="0" align="center">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <!-----------------------HEADERS--------------------------------->
+                                    <c:EMT_VWFS_HEADER rendered="{! letterhead==''  || (letterhead!='AUDI' && letterhead!='DUCATI' && letterhead!='FSVG' && letterhead!='SEAT' && letterhead!='SKODA' && letterhead!='VW' && letterhead!='VU' && letterhead!='VWFS1') }" contactFullName="{!ContactFullName}" caseNumber="{!caseNumber}" NumeroClient="{!NumeroClient}" ContractNumber="{!ContractNumber}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_VWFS_RECOVREMENT_HEADER rendered="{! letterhead=='VWFS1'}" contactFullName="{!ContactFullName}" NumeroClient="{!NumeroClient}" ContractNumber="{!ContractNumber}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_AUDI_HEADER rendered="{! letterhead=='AUDI'}" contactFullName="{!ContactFullName}" caseNumber="{!caseNumber}" ContractNumber="{!ContractNumber}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_DUCATI_HEADER rendered="{! letterhead=='DUCATI'}" contactFullName="{!ContactFullName}" caseNumber="{!caseNumber}" ContractNumber="{!ContractNumber}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_FSVG_HEADER rendered="{! letterhead=='FSVG'}" contactFullName="{!ContactFullName}" caseNumber="{!caseNumber}" ContractNumber="{!ContractNumber}"/> 
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_SEAT_HEADER rendered="{! letterhead=='SEAT'}" contactFullName="{!ContactFullName}" caseNumber="{!caseNumber}" ContractNumber="{!ContractNumber}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_SKODA_HEADER rendered="{! letterhead=='SKODA'}" contactFullName="{!ContactFullName}" caseNumber="{!caseNumber}" ContractNumber="{!ContractNumber}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_VOLKSWAGENFS_HEADER rendered="{! letterhead=='VW'}" contactFullName="{!ContactFullName}" caseNumber="{!caseNumber}" ContractNumber="{!ContractNumber}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_VU_HEADER rendered="{! letterhead=='VU'}"/>
+                                    <!--START : CONTENU TEXTE-->
+                                    <table cellpadding="0" cellspacing="0" align="center" style="{!'width:100%;max-width:640px;  background-color: '+BG_COLOR+';'}">
+                                        <tr>
+                                            <td class="w20" width="40" valign="middle" style="width: 40px;"></td>
+                                            <td height="97" class="" valign="middle" style=" color: #000000; font-size: 16px; font-family: Arial; text-align: left; padding: 0; line-height: 23px;">
+                                                <!-------------------------BODY------------------------------->
+                                                <apex:componentBody />   
+                                                <span style="{!'color: '+COLOR+';'}"><br/><b>{!$User.Signature}</b></span>
+                                            </td>
+                                            <td width="20" valign="middle" style="width: 20px;"></td>
+                                        </tr>
+                                    </table>
+                                    <!---------------------------FOOTER----------------------------->
+                                    <c:EMT_VWFS_FOOTER rendered="{! letterhead==''  || (letterhead!='AUDI' && letterhead!='DUCATI' && letterhead!='FSVG' && letterhead!='SEAT' && letterhead!='SKODA' && letterhead!='VW' && letterhead!='VU') }" URL_Footer="{!URL_Footer}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_AUDI_FOOTER rendered="{! letterhead=='AUDI'}" URL_Footer="{!URL_Footer}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_DUCATI_FOOTER rendered="{! letterhead=='DUCATI'}" URL_Footer="{!URL_Footer}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_FSVG_FOOTER rendered="{! letterhead=='FSVG'}" URL_Footer_FSVG="{!URL_Footer_FSVG}"/> 
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_SEAT_FOOTER rendered="{! letterhead=='SEAT'}" URL_Footer="{!URL_Footer}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_SKODA_FOOTER rendered="{! letterhead=='SKODA'}" URL_Footer="{!URL_Footer}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_VOLKSWAGENFS_FOOTER rendered="{! letterhead=='VW'}" URL_Footer="{!URL_Footer}"/>
+                                    <!------------------------------------------------------------------->
+                                    <c:EMT_VU_FOOTER rendered="{! letterhead=='VU'}" URL_Footer="{!URL_Footer}"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+                </div>
+            </center>
+        </body>
+        
+    </html>
+    
+    
+    
+    
+    
+</apex:component>

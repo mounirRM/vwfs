@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_BusinessPartnerID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>CDM: Holds an external ID for the Lead record from an external source system.
+Availability 2.0.0.1</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Holds an external ID for the Lead record from an external source system.</inlineHelpText>
+    <label>Business Partner ID</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

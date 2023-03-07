@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_CMPG_AMIABLE_RETAIL_AMS</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>Contrat__c</columns>
+    <columns>Code_statut_contrat__c</columns>
+    <columns>Date_d_ch_ance__c</columns>
+    <columns>Montant_de_l_impay__c</columns>
+    <columns>Nombre_d_impay_s__c</columns>
+    <columns>Montant_solde_client__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>A traiter,En cours de traitement,En attente</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Résolue (via requête fille)</value>
+    </filters>
+    <filters>
+        <field>Nombre_d_impay_s__c</field>
+        <operation>greaterThan</operation>
+        <value>4</value>
+    </filters>
+    <label>Copy of CMPG AMIABLE RETAIL AMS</label>
+    <queue>CMPG_AMIABLE_RETAIL</queue>
+</ListView>

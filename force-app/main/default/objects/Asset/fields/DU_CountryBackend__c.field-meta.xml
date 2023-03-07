@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_CountryBackend__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Stores the value of the country code field to enable it for sharing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores the value of the country code field to enable it for sharing.</inlineHelpText>
+    <label>Country Backend</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,37 @@
+<apex:component access="global">
+    <apex:attribute name="URL_Footer" description="" type="String"/>
+<!--marge-->
+<table width="100%" class="w300" style="max-width:640px; table-layout:fixed; background-color: #ffffff;" cellspacing="0"
+    cellpadding="0" border="0" align="center">
+    <tr>
+        <td height="64" style="height: 64px;"></td>
+    </tr>
+</table>
+<!--PARTIE 3-->
+<!--START : FOOTER-->
+<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="border-spacing:0;">
+    <tr>
+        <td class="full-width-image"
+            style="line-height:0px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+            <a href="{!URL_Footer}" style="border: none; text-decoration: none;"
+                target="_blank">
+                <img src="https://{!$Label.instance_name}--c.documentforce.com/servlet/servlet.ImageServer?id={!$Label.Footer_VWFS}&oid={!$Label.organisation_Id}" width="640"
+                    alt="Rendez-vous ici pour nous contacter Volkswagen - Financial Services"
+                    style="border-width:0;width:100%;max-width:640px;height:auto;" /></a>
+        </td>
+    </tr>
+</table>
+<!--END : FOOTER-->
+<!--PARTIE 4-->
+<!--START : MENTION-->
+<!--marge-->
+<!--marge-->
+<table width="100%" class="w300" style="max-width:640px; table-layout:fixed; background-color: #004662;" cellspacing="0"
+    cellpadding="0" border="0" align="center">
+    <tr>
+        <td height="35" style="height: 35px;"></td>
+    </tr>
+</table>
+<!--END : MENTION-->
+<!--End : CODE HTML-->
+</apex:component>

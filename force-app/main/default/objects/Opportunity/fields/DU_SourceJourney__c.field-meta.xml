@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_SourceJourney__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: Describes the source of the journey. Availability 2.1.0-19</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Description of the source of the journey (e.g. HeyCar or CUPRA)</inlineHelpText>
+    <label>Source Journey</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

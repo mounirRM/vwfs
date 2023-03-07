@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_PartnerRespAccMustBeProvidingPartner</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND ( 
+    NOT(ISBLANK(DU_ProvidingPartnerResponsible__c)), 
+    NOT(ISBLANK(DU_ProvidingPartner__c)),
+    DU_ProvidingPartnerResponsible__r.AccountId &lt;&gt; DU_ProvidingPartner__c
+)</errorConditionFormula>
+    <errorMessage>The parent account of the Partner Responsible contact is not the same like the Providing Partner account.</errorMessage>
+</ValidationRule>

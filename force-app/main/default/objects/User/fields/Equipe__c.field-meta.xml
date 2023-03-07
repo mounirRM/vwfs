@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipe__c</fullName>
+    <externalId>false</externalId>
+    <label>Equipe</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acceptation Annexes</fullName>
+                <default>false</default>
+                <label>Acceptation Annexes</label>
+            </value>
+            <value>
+                <fullName>Acceptation Fleet Cellule Support</fullName>
+                <default>false</default>
+                <label>Acceptation Fleet Cellule Support</label>
+            </value>
+            <value>
+                <fullName>Acceptation Fleet Transfert</fullName>
+                <default>false</default>
+                <label>Acceptation Fleet Transfert</label>
+            </value>
+            <value>
+                <fullName>Acceptation Fleet VN</fullName>
+                <default>false</default>
+                <label>Acceptation Fleet VN</label>
+            </value>
+            <value>
+                <fullName>Acceptation Fleet VO</fullName>
+                <default>false</default>
+                <label>Acceptation Fleet VO</label>
+            </value>
+            <value>
+                <fullName>Acceptation Refinancement/transfert</fullName>
+                <default>false</default>
+                <label>Acceptation Refinancement/transfert</label>
+            </value>
+            <value>
+                <fullName>Acceptation Retail VN</fullName>
+                <default>false</default>
+                <label>Acceptation Retail VN</label>
+            </value>
+            <value>
+                <fullName>Acceptation Retail VO</fullName>
+                <default>false</default>
+                <label>Acceptation Retail VO</label>
+            </value>
+            <value>
+                <fullName>Acceptation VGRF</fullName>
+                <default>false</default>
+                <label>Acceptation VGRF</label>
+            </value>
+            <value>
+                <fullName>Acceptation VIP</fullName>
+                <default>false</default>
+                <label>Acceptation VIP</label>
+            </value>
+            <value>
+                <fullName>Crédit réseau 4 fois sans frais</fullName>
+                <default>false</default>
+                <label>Crédit réseau 4 fois sans frais</label>
+            </value>
+            <value>
+                <fullName>Crédit réseau affacturage VN</fullName>
+                <default>false</default>
+                <label>Crédit réseau affacturage VN</label>
+            </value>
+            <value>
+                <fullName>Crédit réseau affacturage VO</fullName>
+                <default>false</default>
+                <label>Crédit réseau affacturage VO</label>
+            </value>
+            <value>
+                <fullName>Crédit réseau comptabilité</fullName>
+                <default>false</default>
+                <label>Crédit réseau comptabilité</label>
+            </value>
+            <value>
+                <fullName>Crédit réseau double financement</fullName>
+                <default>false</default>
+                <label>Crédit réseau double financement</label>
+            </value>
+            <value>
+                <fullName>Crédit réseau post traitement</fullName>
+                <default>false</default>
+                <label>Crédit réseau post traitement</label>
+            </value>
+            <value>
+                <fullName>Crédit réseau RAC</fullName>
+                <default>false</default>
+                <label>Crédit réseau RAC</label>
+            </value>
+            <value>
+                <fullName>Fleet - Fins de contrat</fullName>
+                <default>false</default>
+                <label>Fleet - Fins de contrat</label>
+            </value>
+            <value>
+                <fullName>Fleet - Grands comptes</fullName>
+                <default>false</default>
+                <label>Fleet - Grands comptes</label>
+            </value>
+            <value>
+                <fullName>Fleet - RC</fullName>
+                <default>false</default>
+                <label>Fleet - RC</label>
+            </value>
+            <value>
+                <fullName>Paiement Fleet</fullName>
+                <default>false</default>
+                <label>Paiement Fleet</label>
+            </value>
+            <value>
+                <fullName>Paiement Grands comptes</fullName>
+                <default>false</default>
+                <label>Paiement Grands comptes</label>
+            </value>
+            <value>
+                <fullName>Paiement Manuel</fullName>
+                <default>false</default>
+                <label>Paiement Manuel</label>
+            </value>
+            <value>
+                <fullName>Paiement régularisation</fullName>
+                <default>false</default>
+                <label>Paiement régularisation</label>
+            </value>
+            <value>
+                <fullName>Paiement Retail</fullName>
+                <default>false</default>
+                <label>Paiement Retail</label>
+            </value>
+            <value>
+                <fullName>Qualité DORAB divers</fullName>
+                <default>false</default>
+                <label>Qualité DORAB divers</label>
+            </value>
+            <value>
+                <fullName>Qualité DORAB réclamations</fullName>
+                <default>false</default>
+                <label>Qualité DORAB réclamations</label>
+            </value>
+            <value>
+                <fullName>Recouvrement - Administratif et Banque de France</fullName>
+                <default>false</default>
+                <label>Recouvrement - Administratif et Banque de France</label>
+            </value>
+            <value>
+                <fullName>Recouvrement - Affaires Spéciales</fullName>
+                <default>false</default>
+                <label>Recouvrement - Affaires Spéciales</label>
+            </value>
+            <value>
+                <fullName>Recouvrement - Fleet</fullName>
+                <default>false</default>
+                <label>Recouvrement - Fleet</label>
+            </value>
+            <value>
+                <fullName>Recouvrement - Retail</fullName>
+                <default>false</default>
+                <label>Recouvrement - Retail</label>
+            </value>
+            <value>
+                <fullName>Recouvrement - Satisfaction Client</fullName>
+                <default>false</default>
+                <label>Recouvrement - Satisfaction Client</label>
+            </value>
+            <value>
+                <fullName>Recouvrement - Small Fleet</fullName>
+                <default>false</default>
+                <label>Recouvrement - Small Fleet</label>
+            </value>
+            <value>
+                <fullName>Retail - Contract Management</fullName>
+                <default>false</default>
+                <label>Retail - Contract Management</label>
+            </value>
+            <value>
+                <fullName>Retail - Fin de contrat</fullName>
+                <default>false</default>
+                <label>Retail - Fin de contrat</label>
+            </value>
+            <value>
+                <fullName>Retail - Réclamations</fullName>
+                <default>false</default>
+                <label>Retail - Réclamations</label>
+            </value>
+            <value>
+                <fullName>Retail - Renégociation</fullName>
+                <default>false</default>
+                <label>Retail - Renégociation</label>
+            </value>
+            <value>
+                <fullName>Retail - Sinistres</fullName>
+                <default>false</default>
+                <label>Retail - Sinistres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

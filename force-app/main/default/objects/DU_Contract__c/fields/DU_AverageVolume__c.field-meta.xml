@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_AverageVolume__c</fullName>
+    <deprecated>false</deprecated>
+    <description>CDM: This field contains the average charging in kWh of a member based on the last 10 transactions. This field is calculated in and provided by FastTrack.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Consider the following units: Parking (min), charging (KWh), fueling (l)</inlineHelpText>
+    <label>Average Volume</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_IsB2B__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>CDM: Determines whether the lead record is a B2B lead or not.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines whether the lead record is a B2B lead or not.</inlineHelpText>
+    <label>Is B2B?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

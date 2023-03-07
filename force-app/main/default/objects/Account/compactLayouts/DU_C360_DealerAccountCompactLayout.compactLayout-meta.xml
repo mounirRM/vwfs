@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_C360_DealerAccountCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>ParentId</fields>
+    <fields>BillingAddress</fields>
+    <fields>Phone</fields>
+    <fields>Website</fields>
+    <fields>DU_IsDealerHierarchyNode__c</fields>
+    <fields>OwnerId</fields>
+    <label>DU C360 Dealer Account Compact Layout</label>
+</CompactLayout>

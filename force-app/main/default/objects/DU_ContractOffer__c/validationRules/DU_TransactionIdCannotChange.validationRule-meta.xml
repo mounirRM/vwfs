@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_TransactionIdCannotChange</fullName>
+    <active>true</active>
+    <description>Transaction Id can&apos;t be changed</description>
+    <errorConditionFormula>ISCHANGED(DU_TransactionId__c) &amp;&amp; $Profile.Name != &quot;System Administrator&quot;</errorConditionFormula>
+    <errorDisplayField>DU_TransactionId__c</errorDisplayField>
+    <errorMessage>Transaction Id can&apos;t be changed.</errorMessage>
+</ValidationRule>

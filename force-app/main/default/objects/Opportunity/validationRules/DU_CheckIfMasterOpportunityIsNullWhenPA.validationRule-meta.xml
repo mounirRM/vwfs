@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_CheckIfMasterOpportunityIsNullWhenPA</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName = &quot;DU_ProductOpportunity&quot;,
+Account.PersonContact.IsPersonAccount,
+ NOT(ISBLANK( DU_MasterOpportunityID__c )) 
+)</errorConditionFormula>
+    <errorDisplayField>DU_MasterOpportunityID__c</errorDisplayField>
+    <errorMessage>Please let the field Master Opportunity Id blank when the related Account is a Person Account.</errorMessage>
+</ValidationRule>

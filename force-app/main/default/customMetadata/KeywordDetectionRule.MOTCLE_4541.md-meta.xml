@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>MOTCLE 4541</label>
+    <protected>false</protected>
+    <values>
+        <field>Destinataires__c</field>
+        <value xsi:type="xsd:string">r.clientele@fr.vwfsag.de</value>
+    </values>
+    <values>
+        <field>Equipe__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Expediteurs__c</field>
+        <value xsi:type="xsd:string">Tous</value>
+    </values>
+    <values>
+        <field>Expression__c</field>
+        <value xsi:type="xsd:string">diminuer la durée de mon financement</value>
+    </values>
+    <values>
+        <field>File_d_attente__c</field>
+        <value xsi:type="xsd:string">Retail - Contract Management</value>
+    </values>
+    <values>
+        <field>Motif__c</field>
+        <value xsi:type="xsd:string">Proposition financière</value>
+    </values>
+    <values>
+        <field>Operateur__c</field>
+        <value xsi:type="xsd:string">Commence par</value>
+    </values>
+    <values>
+        <field>Ou__c</field>
+        <value xsi:type="xsd:string">Objet/Corps</value>
+    </values>
+    <values>
+        <field>Priorite__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Sous_motif__c</field>
+        <value xsi:type="xsd:string">Demande de réduction de capital</value>
+    </values>
+</CustomMetadata>

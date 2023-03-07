@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Equipe__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administratif</fullName>
+                <default>false</default>
+                <label>Administratif</label>
+            </value>
+            <value>
+                <fullName>Administratif RECVT</fullName>
+                <default>false</default>
+                <label>Administratif RECVT</label>
+            </value>
+            <value>
+                <fullName>Affacturage VN</fullName>
+                <default>false</default>
+                <label>Affacturage VN</label>
+            </value>
+            <value>
+                <fullName>Affacturage VO</fullName>
+                <default>false</default>
+                <label>Affacturage VO</label>
+            </value>
+            <value>
+                <fullName>Affaires spéciales</fullName>
+                <default>false</default>
+                <label>Affaires spéciales</label>
+            </value>
+            <value>
+                <fullName>Amiable</fullName>
+                <default>false</default>
+                <label>Amiable</label>
+            </value>
+            <value>
+                <fullName>Assistance</fullName>
+                <default>false</default>
+                <label>Assistance</label>
+            </value>
+            <value>
+                <fullName>Assistance outil</fullName>
+                <default>false</default>
+                <label>Assistance outil</label>
+            </value>
+            <value>
+                <fullName>Attestations contrat</fullName>
+                <default>false</default>
+                <label>Attestations contrat</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Banque de France</fullName>
+                <default>false</default>
+                <label>Banque de France</label>
+            </value>
+            <value>
+                <fullName>Cession</fullName>
+                <default>false</default>
+                <label>Cession</label>
+            </value>
+            <value>
+                <fullName>Changement sur client</fullName>
+                <default>false</default>
+                <label>Changement sur client</label>
+            </value>
+            <value>
+                <fullName>Changement sur dossier</fullName>
+                <default>false</default>
+                <label>Changement sur dossier</label>
+            </value>
+            <value>
+                <fullName>Commandes</fullName>
+                <default>false</default>
+                <label>Commandes</label>
+            </value>
+            <value>
+                <fullName>Compta/Règlements</fullName>
+                <default>false</default>
+                <label>Compta/Règlements</label>
+            </value>
+            <value>
+                <fullName>Contactez-nous</fullName>
+                <default>false</default>
+                <label>Contactez-nous</label>
+            </value>
+            <value>
+                <fullName>Contentieux</fullName>
+                <default>false</default>
+                <label>Contentieux</label>
+            </value>
+            <value>
+                <fullName>Contraventions</fullName>
+                <default>false</default>
+                <label>Contraventions</label>
+            </value>
+            <value>
+                <fullName>Contre-proposition</fullName>
+                <default>false</default>
+                <label>Contre-proposition</label>
+            </value>
+            <value>
+                <fullName>Délai de traitement</fullName>
+                <default>false</default>
+                <label>Délai de traitement</label>
+            </value>
+            <value>
+                <fullName>Délai de traitement acceptation</fullName>
+                <default>false</default>
+                <label>Délai de traitement acceptation</label>
+            </value>
+            <value>
+                <fullName>Délai de traitement contrat</fullName>
+                <default>false</default>
+                <label>Délai de traitement contrat</label>
+            </value>
+            <value>
+                <fullName>Demande de paiement RAC</fullName>
+                <default>false</default>
+                <label>Demande de paiement RAC</label>
+            </value>
+            <value>
+                <fullName>Demande de renseignements compta</fullName>
+                <default>false</default>
+                <label>Demande de renseignements compta</label>
+            </value>
+            <value>
+                <fullName>Demande de traitement</fullName>
+                <default>false</default>
+                <label>Demande de traitement</label>
+            </value>
+            <value>
+                <fullName>Demande info</fullName>
+                <default>false</default>
+                <label>Demande info</label>
+            </value>
+            <value>
+                <fullName>Démarches carte grise</fullName>
+                <default>false</default>
+                <label>Démarches carte grise</label>
+            </value>
+            <value>
+                <fullName>Divers</fullName>
+                <default>false</default>
+                <label>Divers</label>
+            </value>
+            <value>
+                <fullName>Documents de cession</fullName>
+                <default>false</default>
+                <label>Documents de cession</label>
+            </value>
+            <value>
+                <fullName>Echange et suivi acceptation</fullName>
+                <default>false</default>
+                <label>Echange et suivi acceptation</label>
+            </value>
+            <value>
+                <fullName>Echange et suivi de la partie contractuelle</fullName>
+                <default>false</default>
+                <label>Echange et suivi de la partie contractuelle</label>
+            </value>
+            <value>
+                <fullName>Echanges</fullName>
+                <default>false</default>
+                <label>Echanges</label>
+            </value>
+            <value>
+                <fullName>Factures de cession</fullName>
+                <default>false</default>
+                <label>Factures de cession</label>
+            </value>
+            <value>
+                <fullName>Fin de contrat</fullName>
+                <default>false</default>
+                <label>Fin de contrat</label>
+            </value>
+            <value>
+                <fullName>Fiscalité</fullName>
+                <default>false</default>
+                <label>Fiscalité</label>
+            </value>
+            <value>
+                <fullName>Fraudes</fullName>
+                <default>false</default>
+                <label>Fraudes</label>
+            </value>
+            <value>
+                <fullName>Gage/publication</fullName>
+                <default>false</default>
+                <label>Gage/publication</label>
+            </value>
+            <value>
+                <fullName>Gestion des prestations</fullName>
+                <default>false</default>
+                <label>Gestion des prestations</label>
+            </value>
+            <value>
+                <fullName>Gestion double financement</fullName>
+                <default>false</default>
+                <label>Gestion double financement</label>
+            </value>
+            <value>
+                <fullName>Gestion du Parc</fullName>
+                <default>false</default>
+                <label>Gestion du Parc</label>
+            </value>
+            <value>
+                <fullName>Gestion sinistre à la personne</fullName>
+                <default>false</default>
+                <label>Gestion sinistre à la personne</label>
+            </value>
+            <value>
+                <fullName>Gestion sinistre véhicule</fullName>
+                <default>false</default>
+                <label>Gestion sinistre véhicule</label>
+            </value>
+            <value>
+                <fullName>Impayés 4x sans frais</fullName>
+                <default>false</default>
+                <label>Impayés 4x sans frais</label>
+            </value>
+            <value>
+                <fullName>Information processus</fullName>
+                <default>false</default>
+                <label>Information processus</label>
+            </value>
+            <value>
+                <fullName>Insatisfaction RC retail</fullName>
+                <default>false</default>
+                <label>Insatisfaction RC retail</label>
+            </value>
+            <value>
+                <fullName>Insatisfaction Réseau</fullName>
+                <default>false</default>
+                <label>Insatisfaction Réseau</label>
+            </value>
+            <value>
+                <fullName>Manuel</fullName>
+                <default>false</default>
+                <label>Manuel</label>
+            </value>
+            <value>
+                <fullName>Modification</fullName>
+                <default>false</default>
+                <label>Modification</label>
+            </value>
+            <value>
+                <fullName>Modification/erreur</fullName>
+                <default>false</default>
+                <label>Modification/erreur</label>
+            </value>
+            <value>
+                <fullName>Modification BER</fullName>
+                <default>false</default>
+                <label>Modification BER</label>
+            </value>
+            <value>
+                <fullName>Modification contrat</fullName>
+                <default>false</default>
+                <label>Modification contrat</label>
+            </value>
+            <value>
+                <fullName>Paiement bloqué</fullName>
+                <default>false</default>
+                <label>Paiement bloqué</label>
+            </value>
+            <value>
+                <fullName>Panne / Dysfonctionnement véhicule</fullName>
+                <default>false</default>
+                <label>Panne / Dysfonctionnement véhicule</label>
+            </value>
+            <value>
+                <fullName>PCL</fullName>
+                <default>false</default>
+                <label>PCL</label>
+            </value>
+            <value>
+                <fullName>Post traitement</fullName>
+                <default>false</default>
+                <label>Post traitement</label>
+            </value>
+            <value>
+                <fullName>Prestations</fullName>
+                <default>false</default>
+                <label>Prestations</label>
+            </value>
+            <value>
+                <fullName>Prestations et Services (ext gar, FSE, GAVN,GAVO)</fullName>
+                <default>false</default>
+                <label>Prestations et Services (ext gar, FSE, GAVN,GAVO)</label>
+            </value>
+            <value>
+                <fullName>Prolongation</fullName>
+                <default>false</default>
+                <label>Prolongation</label>
+            </value>
+            <value>
+                <fullName>Proposition financière</fullName>
+                <default>false</default>
+                <label>Proposition financière</label>
+            </value>
+            <value>
+                <fullName>PV de restitution</fullName>
+                <default>false</default>
+                <label>PV de restitution</label>
+            </value>
+            <value>
+                <fullName>Réclamation</fullName>
+                <default>false</default>
+                <label>Réclamation</label>
+            </value>
+            <value>
+                <fullName>Réclamations</fullName>
+                <default>false</default>
+                <label>Réclamations</label>
+            </value>
+            <value>
+                <fullName>Recours juridique (Avocat, protection juridique, mediateur, association)</fullName>
+                <default>false</default>
+                <label>Recours juridique (Avocat, protection juridique, mediateur, association)</label>
+            </value>
+            <value>
+                <fullName>Refinancement</fullName>
+                <default>false</default>
+                <label>Refinancement</label>
+            </value>
+            <value>
+                <fullName>Refus</fullName>
+                <default>false</default>
+                <label>Refus</label>
+            </value>
+            <value>
+                <fullName>Règlement (réduction de capital)</fullName>
+                <default>false</default>
+                <label>Règlement (réduction de capital)</label>
+            </value>
+            <value>
+                <fullName>Règlement (solde)</fullName>
+                <default>false</default>
+                <label>Règlement (solde)</label>
+            </value>
+            <value>
+                <fullName>Régularisation</fullName>
+                <default>false</default>
+                <label>Régularisation</label>
+            </value>
+            <value>
+                <fullName>Régularisation comptable</fullName>
+                <default>false</default>
+                <label>Régularisation comptable</label>
+            </value>
+            <value>
+                <fullName>Renégociation</fullName>
+                <default>false</default>
+                <label>Renégociation</label>
+            </value>
+            <value>
+                <fullName>Restitution</fullName>
+                <default>false</default>
+                <label>Restitution</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Rétractation</fullName>
+                <default>false</default>
+                <label>Rétractation</label>
+            </value>
+            <value>
+                <fullName>Satisfaction client</fullName>
+                <default>false</default>
+                <label>Satisfaction client</label>
+            </value>
+            <value>
+                <fullName>Selfpayment</fullName>
+                <default>false</default>
+                <label>Selfpayment</label>
+            </value>
+            <value>
+                <fullName>Stand alone</fullName>
+                <default>false</default>
+                <label>Stand alone</label>
+            </value>
+            <value>
+                <fullName>Suivi 4x sans frais</fullName>
+                <default>false</default>
+                <label>Suivi 4x sans frais</label>
+            </value>
+            <value>
+                <fullName>Suivi de paiement</fullName>
+                <default>false</default>
+                <label>Suivi de paiement</label>
+            </value>
+            <value>
+                <fullName>Téléphone</fullName>
+                <default>false</default>
+                <label>Téléphone</label>
+            </value>
+            <value>
+                <fullName>Transfert</fullName>
+                <default>false</default>
+                <label>Transfert</label>
+            </value>
+            <value>
+                <fullName>Transfert d&apos;appel</fullName>
+                <default>false</default>
+                <label>Transfert d&apos;appel</label>
+            </value>
+            <value>
+                <fullName>Transfert vendeur</fullName>
+                <default>false</default>
+                <label>Transfert vendeur</label>
+            </value>
+            <value>
+                <fullName>Suivi courrier anomalies</fullName>
+                <default>false</default>
+                <label>Suivi courrier anomalies</label>
+            </value>
+            <value>
+                <fullName>Gage / Publication</fullName>
+                <default>false</default>
+                <label>Gage / Publication</label>
+            </value>
+            <value>
+                <fullName>Retour étude</fullName>
+                <default>false</default>
+                <label>Retour étude</label>
+            </value>
+            <value>
+                <fullName>Annule et Remplace</fullName>
+                <default>false</default>
+                <label>Annule et Remplace</label>
+            </value>
+            <value>
+                <fullName>Vente en ligne</fullName>
+                <default>false</default>
+                <label>Vente en ligne</label>
+            </value>
+            <value>
+                <fullName>Contactez nous</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contactez nous</label>
+            </value>
+            <value>
+                <fullName>Echange</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Echange</label>
+            </value>
+            <value>
+                <fullName>Fraude</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fraude</label>
+            </value>
+            <value>
+                <fullName>KSIOP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>KSIOP</label>
+            </value>
+            <value>
+                <fullName>VDL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VDL</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau double financement</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau Lamborghini</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau PRA</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau RAC</controllingFieldValue>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Paiement Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Paiement Manuel</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <controllingFieldValue>Qualité DORAB divers</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau 4 fois sans frais</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VN</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VO</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau annexe 1</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Cellule Support</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <controllingFieldValue>Acceptation Refinancement/transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau compliance</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau comptabilité</controllingFieldValue>
+            <valueName>Divers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau double financement</controllingFieldValue>
+            <valueName>Gestion double financement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau double financement</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Fleet</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau Lamborghini</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau post traitement</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau PRA</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Retail</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau RAC</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Satisfaction Client</controllingFieldValue>
+            <controllingFieldValue>Fleet - Fins de contrat</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Small Fleet</controllingFieldValue>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Retail - Fin de contrat</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Retail - Réclamations</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <controllingFieldValue>Retail - Renégociation</controllingFieldValue>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Retail - Sinistres</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Paiement Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Administratif</controllingFieldValue>
+            <controllingFieldValue>Paiement Manuel</controllingFieldValue>
+            <controllingFieldValue>Paiement administratif</controllingFieldValue>
+            <controllingFieldValue>Paiement régularisation</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <controllingFieldValue>Qualité DORAB divers</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau 4 fois sans frais</controllingFieldValue>
+            <controllingFieldValue>Qualité DORAB réclamations</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VN</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VO</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau annexe 1</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Cellule Support</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <controllingFieldValue>Acceptation Refinancement/transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Affaires Spéciales</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau compliance</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau comptabilité</controllingFieldValue>
+            <valueName>Retour étude</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recouvrement - Fleet</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Retail</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Small Fleet</controllingFieldValue>
+            <valueName>Amiable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recouvrement - Fleet</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Retail</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Small Fleet</controllingFieldValue>
+            <valueName>Contentieux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recouvrement - Fleet</controllingFieldValue>
+            <controllingFieldValue>Recouvrement - Small Fleet</controllingFieldValue>
+            <valueName>PCL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau Lamborghini</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VN</controllingFieldValue>
+            <valueName>Affacturage VN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau Lamborghini</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VO</controllingFieldValue>
+            <valueName>Affacturage VO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau Lamborghini</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau PRA</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau RAC</controllingFieldValue>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau 4 fois sans frais</controllingFieldValue>
+            <controllingFieldValue>Qualité DORAB réclamations</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VN</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VO</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Cellule Support</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <valueName>Réclamation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau post traitement</controllingFieldValue>
+            <valueName>Post traitement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau PRA</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau annexe 1</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau compliance</controllingFieldValue>
+            <valueName>Demande de traitement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau RAC</controllingFieldValue>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VN</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VO</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Cellule Support</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <valueName>Assistance outil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau RAC</controllingFieldValue>
+            <valueName>Demande de paiement RAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau RAC</controllingFieldValue>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VN</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau affacturage VO</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau annexe 1</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Cellule Support</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <valueName>Transfert d&apos;appel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recouvrement - Satisfaction Client</controllingFieldValue>
+            <valueName>Satisfaction client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Fins de contrat</controllingFieldValue>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <valueName>Attestations contrat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Fins de contrat</controllingFieldValue>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <valueName>Cession</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Fins de contrat</controllingFieldValue>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <valueName>Compta/Règlements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Fins de contrat</controllingFieldValue>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <valueName>Démarches carte grise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Fins de contrat</controllingFieldValue>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <valueName>Restitution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Fins de contrat</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <valueName>Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <valueName>Autre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Changement sur client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <valueName>Commandes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <valueName>Contraventions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <valueName>Demande info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <valueName>Fiscalité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <valueName>Gestion du Parc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <valueName>Modification contrat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <valueName>Prestations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet - Partenaires</controllingFieldValue>
+            <controllingFieldValue>Fleet - RC</controllingFieldValue>
+            <controllingFieldValue>Retail - Réclamations</controllingFieldValue>
+            <controllingFieldValue>Fleet - VDL</controllingFieldValue>
+            <controllingFieldValue>Crédit réseau annexe 1</controllingFieldValue>
+            <valueName>Réclamations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Administratif</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Changement sur dossier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <valueName>Contactez-nous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <controllingFieldValue>Retail - Fin de contrat</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Gage/publication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <controllingFieldValue>Retail - Renégociation</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Gestion des prestations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Information processus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Proposition financière</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Contract Management</controllingFieldValue>
+            <valueName>Téléphone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Fin de contrat</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Documents de cession</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Fin de contrat</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Factures de cession</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Fin de contrat</controllingFieldValue>
+            <controllingFieldValue>Retail - Réclamations</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Fin de contrat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Fin de contrat</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>PV de restitution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Fin de contrat</controllingFieldValue>
+            <controllingFieldValue>Retail - Renégociation</controllingFieldValue>
+            <valueName>Règlement (réduction de capital)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Fin de contrat</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Règlement (solde)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Fin de contrat</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Régularisation comptable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Réclamations</controllingFieldValue>
+            <valueName>Insatisfaction RC retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Réclamations</controllingFieldValue>
+            <valueName>Insatisfaction Réseau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Réclamations</controllingFieldValue>
+            <valueName>Panne / Dysfonctionnement véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Réclamations</controllingFieldValue>
+            <valueName>Prestations et Services (ext gar, FSE, GAVN,GAVO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Réclamations</controllingFieldValue>
+            <valueName>Recours juridique (Avocat, protection juridique, mediateur, association)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Renégociation</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Prolongation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Renégociation</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Refinancement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Renégociation</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Renégociation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Renégociation</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Transfert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <controllingFieldValue>Acceptation Refinancement/transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <valueName>Contre-proposition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <controllingFieldValue>Acceptation Refinancement/transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <valueName>Délai de traitement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <controllingFieldValue>Acceptation Refinancement/transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <valueName>Echanges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <controllingFieldValue>Acceptation Refinancement/transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <valueName>Modification/erreur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <controllingFieldValue>Acceptation Refinancement/transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <valueName>Refus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Cellule Support</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <valueName>Rétractation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation VGRF</controllingFieldValue>
+            <controllingFieldValue>Acceptation VIP</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <controllingFieldValue>Acceptation Refinancement/transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Retail VO</controllingFieldValue>
+            <valueName>Annule et Remplace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <valueName>Assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <valueName>Modification BER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Paiement Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Paiement Manuel</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <valueName>Paiement bloqué</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Paiement Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Paiement Manuel</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <valueName>Selfpayment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <valueName>Stand alone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Paiement Grands comptes</controllingFieldValue>
+            <controllingFieldValue>Paiement Manuel</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <valueName>Suivi de paiement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement Fleet</controllingFieldValue>
+            <controllingFieldValue>Paiement Retail</controllingFieldValue>
+            <valueName>Transfert vendeur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Sinistres</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <controllingFieldValue>Acceptation Annexes</controllingFieldValue>
+            <valueName>Gestion sinistre à la personne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail - Sinistres</controllingFieldValue>
+            <controllingFieldValue>Partenaire-réseau</controllingFieldValue>
+            <valueName>Gestion sinistre véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recouvrement - Administratif</controllingFieldValue>
+            <valueName>Administratif RECVT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recouvrement - Administratif</controllingFieldValue>
+            <valueName>Banque de France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement Manuel</controllingFieldValue>
+            <valueName>Manuel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement administratif</controllingFieldValue>
+            <valueName>Suivi courrier anomalies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement administratif</controllingFieldValue>
+            <valueName>Gage / Publication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paiement régularisation</controllingFieldValue>
+            <valueName>Régularisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation Retail Vente en ligne</controllingFieldValue>
+            <valueName>Vente en ligne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau 4 fois sans frais</controllingFieldValue>
+            <valueName>Impayés 4x sans frais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau 4 fois sans frais</controllingFieldValue>
+            <valueName>Suivi 4x sans frais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation Fleet Cellule Support</controllingFieldValue>
+            <valueName>Délai de traitement contrat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation Fleet Cellule Support</controllingFieldValue>
+            <valueName>Echange et suivi de la partie contractuelle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation Fleet Cellule Support</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <valueName>Modification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <valueName>Délai de traitement acceptation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptation Fleet Transfert</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VN</controllingFieldValue>
+            <controllingFieldValue>Acceptation Fleet VO</controllingFieldValue>
+            <valueName>Echange et suivi acceptation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recouvrement - Affaires Spéciales</controllingFieldValue>
+            <valueName>Affaires spéciales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crédit réseau comptabilité</controllingFieldValue>
+            <valueName>Demande de renseignements compta</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

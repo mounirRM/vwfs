@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DU_OriginalContract__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>CDM: References the previous contract to this opportunity. Renewal opportunities will be automatically created prior to its expiration for Asset Based Income (ABI) contracts. Availability 2.0.0.7</description>
+    <externalId>false</externalId>
+    <inlineHelpText>References the previous contract to this opportunity.</inlineHelpText>
+    <label>Original Contract</label>
+    <referenceTo>DU_Contract__c</referenceTo>
+    <relationshipLabel>Opportunities</relationshipLabel>
+    <relationshipName>DU_OpportunitiesOriginalContract</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
